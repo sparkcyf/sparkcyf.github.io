@@ -44,8 +44,8 @@
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     },
-    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
-    path: '',
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
       copy_button: 'Copy',
@@ -56,12 +56,12 @@
   };
 </script>
 
-  <meta name="description" content="使用PC/Apple HomeKit控制米家等智能家居在大一上时购入了一台二手树莓派3b，但一般也只用来挂一下pt，当个下载机和简易nas使用。后来发现Home Assistant这个软件可以连接许多智能家庭平台，于是在绿米Aqura空调伴侣打折时入了一个。 其实小米自己提供的米家app在功能上来说更加完善，不仅能设定更多的智能场景，还能通过公网控制设备，但想到小米系app一贯的作风（配置一个智">
+  <meta name="description" content="使用PC/Apple HomeKit控制米家等智能家居">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Home Assistant: Using the PC&#x2F;Apple HomeKit to Control Mi Home Accessories">
 <meta property="og:url" content="https://www.sparktour.me/2019/04/26/home-assistant-using-the-pc-apple-homekit-to-control-mi-home-accessories/index.html">
 <meta property="og:site_name" content="Sparktour&#39;s">
-<meta property="og:description" content="使用PC/Apple HomeKit控制米家等智能家居在大一上时购入了一台二手树莓派3b，但一般也只用来挂一下pt，当个下载机和简易nas使用。后来发现Home Assistant这个软件可以连接许多智能家庭平台，于是在绿米Aqura空调伴侣打折时入了一个。 其实小米自己提供的米家app在功能上来说更加完善，不仅能设定更多的智能场景，还能通过公网控制设备，但想到小米系app一贯的作风（配置一个智">
+<meta property="og:description" content="使用PC/Apple HomeKit控制米家等智能家居">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://www.home-assistant.io/images/hero_screenshot.png">
 <meta property="og:image" content="https://blog.sparktour.me/wp-content/uploads/2019/04/ac-slider1-bg-mb-737x1024.jpg">
@@ -69,10 +69,10 @@
 <meta property="og:image" content="https://blog.sparktour.me/wp-content/uploads/2019/04/Screenshot-2019-04-26-at-2.23.55-AM-1024x110.png">
 <meta property="og:image" content="https://github.com/syssi/xiaomi_airconditioningcompanion/raw/develop/climate.png">
 <meta property="og:image" content="https://blog.sparktour.me/wp-content/uploads/2019/04/Screenshot-2019-04-26-at-2.38.31-AM.png">
-<meta property="og:updated_time" content="2019-09-08T15:33:33.435Z">
+<meta property="og:updated_time" content="2019-09-09T01:00:11.181Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Home Assistant: Using the PC&#x2F;Apple HomeKit to Control Mi Home Accessories">
-<meta name="twitter:description" content="使用PC/Apple HomeKit控制米家等智能家居在大一上时购入了一台二手树莓派3b，但一般也只用来挂一下pt，当个下载机和简易nas使用。后来发现Home Assistant这个软件可以连接许多智能家庭平台，于是在绿米Aqura空调伴侣打折时入了一个。 其实小米自己提供的米家app在功能上来说更加完善，不仅能设定更多的智能场景，还能通过公网控制设备，但想到小米系app一贯的作风（配置一个智">
+<meta name="twitter:description" content="使用PC/Apple HomeKit控制米家等智能家居">
 <meta name="twitter:image" content="https://www.home-assistant.io/images/hero_screenshot.png">
   <link rel="canonical" href="https://www.sparktour.me/2019/04/26/home-assistant-using-the-pc-apple-homekit-to-control-mi-home-accessories/">
 
@@ -186,9 +186,36 @@
     <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a href="javascript:;" class="popup-trigger">
+        
+          <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+      </li>
+    
   </ul>
 
 </nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="Searching..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
 </div>
     </header>
 
@@ -252,7 +279,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-09-08 23:33:33" itemprop="dateModified" datetime="2019-09-08T23:33:33+08:00">2019-09-08</time>
+                <time title="Modified: 2019-09-09 09:00:11" itemprop="dateModified" datetime="2019-09-09T09:00:11+08:00">2019-09-09</time>
               </span>
             
           
@@ -296,7 +323,8 @@
 
       
         <p><img src="https://www.home-assistant.io/images/hero_screenshot.png" alt></p>
-<h2 id="使用PC-Apple-HomeKit控制米家等智能家居"><a href="#使用PC-Apple-HomeKit控制米家等智能家居" class="headerlink" title="使用PC/Apple HomeKit控制米家等智能家居"></a>使用PC/Apple HomeKit控制米家等智能家居</h2><p>在大一上时购入了一台二手树莓派3b，但一般也只用来挂一下pt，当个下载机和简易nas使用。后来发现<a href="https://www.home-assistant.io/" target="_blank" rel="noopener">Home Assistant</a>这个软件可以连接许多智能家庭平台，于是在绿米Aqura空调伴侣打折时入了一个。</p>
+<h2 id="使用PC-Apple-HomeKit控制米家等智能家居"><a href="#使用PC-Apple-HomeKit控制米家等智能家居" class="headerlink" title="使用PC/Apple HomeKit控制米家等智能家居"></a>使用PC/Apple HomeKit控制米家等智能家居</h2><a id="more"></a>
+<p>在大一上时购入了一台二手树莓派3b，但一般也只用来挂一下pt，当个下载机和简易nas使用。后来发现<a href="https://www.home-assistant.io/" target="_blank" rel="noopener">Home Assistant</a>这个软件可以连接许多智能家庭平台，于是在绿米Aqura空调伴侣打折时入了一个。</p>
 <p>其实小米自己提供的米家app在功能上来说更加完善，不仅能设定更多的智能场景，还能通过公网控制设备，但想到小米系app一贯的作风（配置一个智能家居也强制需要读取识别码和位置权限…），只在ipad上安装了一个，手机上的配置好就马上卸掉了😂。</p>
 <p><img src="https://blog.sparktour.me/wp-content/uploads/2019/04/ac-slider1-bg-mb-737x1024.jpg" alt></p>
 <p>除了空调伴侣的功能，还可以当zigbee的网关和收音机用</p>
@@ -577,6 +605,8 @@ climate:
 
 
 
+
+  <script src="/js/local-search.js?v=7.4.0"></script>
 
 
 
