@@ -1,25 +1,19 @@
 <!DOCTYPE html>
-
-
-
-
-
 <html lang="zh-Hans">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 3.9.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.4.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.4.0">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.4.0">
-  <link rel="mask-icon" href="/images/logo.svg?v=7.4.0" color="#222">
-  <link rel="alternate" href="/atom.xml" title="Sparktour's" type="application/atom+xml">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css?v=7.4.0">
+<link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 
 
 <script id="hexo-configurations">
@@ -27,7 +21,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Gemini',
-    version: '7.4.0',
+    version: '7.4.3',
     exturl: false,
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
@@ -56,24 +50,23 @@
   };
 </script>
 
-  <meta name="description" content="自从pixel1开始，Google就不再把大陆运营商的lte配置文件内置在手机内了，在使用的过程中就会遇到不少麻烦：联通还能基本正常使用（但似乎配置文件不完整，信号会比较一般），但电信就无法直接使用lte了。  最后参考了xda上的一种方法做到了在不Factory Resret的情况下（甚至OTA也不会失效）成功一次性启用和改善了三网的lte效果（理论上在Android O/P/Q beta上都可">
+  <meta name="description" content="自从pixel1开始，Google就不再把大陆运营商的lte配置文件内置在手机内了，在使用的过程中就会遇到不少麻烦：联通还能基本正常使用（但似乎配置文件不完整，信号会比较一般），但电信就无法直接使用lte了。  最后参考了xda上的一种方法做到了在不Factory Resret的情况下（甚至OTA也不会失效）成功一次性启用和改善了三网的lte效果（理论上在Android O&#x2F;P&#x2F;Q beta上都可">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Enable Pixel 1 &#39;s lte in CT&#x2F;CMCC&#x2F;CU &amp; Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信&#x2F;联通&#x2F;移动lte">
-<meta property="og:url" content="https://www.sparktour.me/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/index.html">
+<meta property="og:url" content="https:&#x2F;&#x2F;www.sparktour.me&#x2F;2019&#x2F;05&#x2F;11&#x2F;enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1&#x2F;index.html">
 <meta property="og:site_name" content="Sparktour&#39;s">
-<meta property="og:description" content="自从pixel1开始，Google就不再把大陆运营商的lte配置文件内置在手机内了，在使用的过程中就会遇到不少麻烦：联通还能基本正常使用（但似乎配置文件不完整，信号会比较一般），但电信就无法直接使用lte了。  最后参考了xda上的一种方法做到了在不Factory Resret的情况下（甚至OTA也不会失效）成功一次性启用和改善了三网的lte效果（理论上在Android O/P/Q beta上都可">
+<meta property="og:description" content="自从pixel1开始，Google就不再把大陆运营商的lte配置文件内置在手机内了，在使用的过程中就会遇到不少麻烦：联通还能基本正常使用（但似乎配置文件不完整，信号会比较一般），但电信就无法直接使用lte了。  最后参考了xda上的一种方法做到了在不Factory Resret的情况下（甚至OTA也不会失效）成功一次性启用和改善了三网的lte效果（理论上在Android O&#x2F;P&#x2F;Q beta上都可">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg/1280px-Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg">
-<meta property="og:image" content="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot-from-2019-05-11-00-32-45-1024x403.png">
-<meta property="og:image" content="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot-from-2019-05-11-00-35-41.png">
-<meta property="og:image" content="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot-from-2019-05-11-00-41-23.png">
-<meta property="og:image" content="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot_20190510-231347-825x1024.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;thumb&#x2F;b&#x2F;be&#x2F;Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg&#x2F;1280px-Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.sparktour.me&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;05&#x2F;Screenshot-from-2019-05-11-00-32-45-1024x403.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.sparktour.me&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;05&#x2F;Screenshot-from-2019-05-11-00-35-41.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.sparktour.me&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;05&#x2F;Screenshot-from-2019-05-11-00-41-23.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;blog.sparktour.me&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;05&#x2F;Screenshot_20190510-231347-825x1024.png">
 <meta property="og:updated_time" content="2019-09-09T00:59:43.728Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Enable Pixel 1 &#39;s lte in CT&#x2F;CMCC&#x2F;CU &amp; Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信&#x2F;联通&#x2F;移动lte">
-<meta name="twitter:description" content="自从pixel1开始，Google就不再把大陆运营商的lte配置文件内置在手机内了，在使用的过程中就会遇到不少麻烦：联通还能基本正常使用（但似乎配置文件不完整，信号会比较一般），但电信就无法直接使用lte了。  最后参考了xda上的一种方法做到了在不Factory Resret的情况下（甚至OTA也不会失效）成功一次性启用和改善了三网的lte效果（理论上在Android O/P/Q beta上都可">
-<meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg/1280px-Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg">
-  <link rel="canonical" href="https://www.sparktour.me/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;thumb&#x2F;b&#x2F;be&#x2F;Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg&#x2F;1280px-Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg">
+
+<link rel="canonical" href="https://www.sparktour.me/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/">
 
 
 <script id="page-configurations">
@@ -89,18 +82,16 @@
 
   <title>Enable Pixel 1 's lte in CT/CMCC/CU & Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信/联通/移动lte | Sparktour's</title>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138534726-2"></script>
-  <script>
-    var host = window.location.hostname;
-    if (host !== "localhost" || !true) {
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-138534726-2');
-    }
-  </script>
-
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138534726-2"></script>
+    <script>
+      var host = window.location.hostname;
+      if (host !== "localhost" || !true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-138534726-2');
+      }
+    </script>
 
 
 
@@ -119,7 +110,6 @@
   .use-motion .post-body,
   .use-motion .collection-header { opacity: initial; }
 
-  .use-motion .logo,
   .use-motion .site-title,
   .use-motion .site-subtitle {
     opacity: initial;
@@ -133,11 +123,11 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage">
   <div class="container use-motion">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-meta">
 
@@ -151,11 +141,11 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Toggle navigation bar">
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
   </div>
 </div>
 
@@ -163,78 +153,40 @@
 <nav class="site-nav">
   
   <ul id="menu" class="menu">
-      
-      
-      
-        
         <li class="menu-item menu-item-home">
-      
-    
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
 
   </li>
-      
-      
-      
-        
         <li class="menu-item menu-item-about">
-      
-    
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
 
   </li>
-      
-      
-      
-        
         <li class="menu-item menu-item-tags">
-      
-    
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
 
   </li>
-      
-      
-      
-        
         <li class="menu-item menu-item-categories">
-      
-    
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories</a>
 
   </li>
-      
-      
-      
-        
         <li class="menu-item menu-item-archives">
-      
-    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
 
   </li>
-      
-      
-      
-        
         <li class="menu-item menu-item-sitemap">
-      
-    
 
-    <a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>Sitemap</a>
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-fw fa-sitemap"></i>Sitemap</a>
 
   </li>
       <li class="menu-item menu-item-search">
-        <a href="javascript:;" class="popup-trigger">
-        
-          <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
       </li>
-    
   </ul>
 
 </nav>
@@ -269,35 +221,33 @@
   </div>
 
 
-    <main id="main" class="main">
+    <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
+
+          <div class="content">
             
 
-          <div id="content" class="content">
-            
-
-  <div id="posts" class="posts-expand">
-      <article itemscope itemtype="http://schema.org/Article">
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block post">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="https://www.sparktour.me/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://i.loli.net/2019/09/09/WJ5pAZj2Ec8Dv4u.jpg">
       <meta itemprop="name" content="sparktour">
       <meta itemprop="description" content="Sparktour's New Blog">
-      <meta itemprop="image" content="https://i.loli.net/2019/09/09/WJ5pAZj2Ec8Dv4u.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Sparktour's">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Enable Pixel 1 's lte in CT/CMCC/CU & Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信/联通/移动lte
-
-          
+        <h1 class="post-title" itemprop="name headline">
+          Enable Pixel 1 's lte in CT/CMCC/CU & Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信/联通/移动lte
         </h1>
 
         <div class="post-meta">
@@ -307,16 +257,8 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              
-                
-              
-
               <time title="Created: 2019-05-11 00:59:04" itemprop="dateCreated datePublished" datetime="2019-05-11T00:59:04+08:00">2019-05-11</time>
             </span>
-          
-            
-
-            
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
@@ -324,28 +266,23 @@
                 <span class="post-meta-item-text">Edited on</span>
                 <time title="Modified: 2019-09-09 08:59:43" itemprop="dateModified" datetime="2019-09-09T08:59:43+08:00">2019-09-09</time>
               </span>
-            
-          
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">In</span>
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/tech/" itemprop="url" rel="index"><span itemprop="name">tech</span></a></span>
-
-                
-                
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/tech/" itemprop="url" rel="index">
+                    <span itemprop="name">tech</span>
+                  </a>
+                </span>
                   , 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/tech/折腾捣鼓/" itemprop="url" rel="index"><span itemprop="name">折腾捣鼓</span></a></span>
-
-                
-                
-              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/tech/%E6%8A%98%E8%85%BE%E6%8D%A3%E9%BC%93/" itemprop="url" rel="index">
+                    <span itemprop="name">折腾捣鼓</span>
+                  </a>
+                </span>
             </span>
-          
 
           
   
@@ -354,11 +291,11 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-comment-o"></i>
       </span>
-        
-      
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/#comments" itemprop="discussionUrl"><span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/" itemprop="commentCount"></span></a>
+    <a title="disqus" href="/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/" itemprop="commentCount"></span>
+    </a>
   </span>
   
   
@@ -373,7 +310,7 @@
 
       
         <p>自从pixel1开始，Google就不再把大陆运营商的lte配置文件内置在手机内了，在使用的过程中就会遇到不少麻烦：联通还能基本正常使用（但似乎配置文件不完整，信号会比较一般），但电信就无法直接使用lte了。</p>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg/1280px-Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg" alt></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg/1280px-Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg" alt=""></p>
 <p>最后参考了<a href="https://forum.xda-developers.com/showpost.php?p=78525459&postcount=4" target="_blank" rel="noopener">xda上的一种方法</a>做到了在不Factory Resret的情况下（甚至OTA也不会失效）成功一次性启用和改善了三网的lte效果（理论上在Android O/P/Q beta上都可以成功）</p>
 <a id="more"></a>
 
@@ -381,15 +318,15 @@
 <p>下载pixel的factory image:</p>
 <p><a href="https://developers.google.com/android/images#sailfish" target="_blank" rel="noopener">https://developers.google.com/android/images#sailfish</a></p>
 <p>解压开image-sailfishxxxx.zip，再解压出里面的modem.img</p>
-<p><img src="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot-from-2019-05-11-00-32-45-1024x403.png" alt></p>
+<p><img src="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot-from-2019-05-11-00-32-45-1024x403.png" alt=""></p>
 <p>下载一加3T的全量OTA包</p>
 <p><a href="https://www.oneplus.com/hk/support/softwareupgrade/details?code=4" target="_blank" rel="noopener">https://www.oneplus.com/hk/support/softwareupgrade/details?code=4</a></p>
 <p>在/firmware-update/里找出NON-HLOS.bin，解压到别处</p>
-<p><img src="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot-from-2019-05-11-00-35-41.png" alt></p>
+<p><img src="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot-from-2019-05-11-00-35-41.png" alt=""></p>
 <p>再Linux环境下扩容pixel的modem.img使能有足够空间装入三大运营商的配置文件。</p>
 <pre><code>dd if=/dev/zero of=modem.img bs=4096 count=300 conv=notrunc oflag=append
 
-#这样会扩容1.2M左右，运营商的配置文件大概占用了900k左右的空间</code></pre><p><img src="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot-from-2019-05-11-00-41-23.png" alt></p>
+#这样会扩容1.2M左右，运营商的配置文件大概占用了900k左右的空间</code></pre><p><img src="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot-from-2019-05-11-00-41-23.png" alt=""></p>
 <p>然后挂载上modem.img和NON-HLOS.bin</p>
 <pre><code>sudo mount -o loop modem.img /dir_you_want_to_mount/pixel
 sudo mount -o loop NO-HLOS.bin /dir_you_want_to_mount/oneplus</code></pre><p>再将NO-HLOS.bin中的china的整个配置文件夹拷贝到moden.img的相应位置：</p>
@@ -402,7 +339,7 @@ umount oneplus</code></pre><p>把修改后的modem在fastboot下刷入</p>
 <pre><code>fastboot flash modem_a modem.img
 fastboot flash modem_b modem.img
 fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可以使用了，具体拨号盘进<em>#</em>#4636#<em>#</em>即可看到：</p>
-<p><img src="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot_20190510-231347-825x1024.png" alt></p>
+<p><img src="https://blog.sparktour.me/wp-content/uploads/2019/05/Screenshot_20190510-231347-825x1024.png" alt=""></p>
 <p>这里的data network type已经是LTE了</p>
 <blockquote>
 <p>参考：[GUIDE] Enable China Telecom LTE by modifying modem partitions</p>
@@ -415,8 +352,6 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
     
     
     
-        
-      
 
       <footer class="post-footer">
 
@@ -424,38 +359,31 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
 
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
-              
                 <a href="/2019/05/02/lrtimelapse-a-better-way-to-create-a-smooth-time-lapse/" rel="next" title="LRTimelapse: A Better Way to Create a Smooth Time-Lapse">
                   <i class="fa fa-chevron-left"></i> LRTimelapse: A Better Way to Create a Smooth Time-Lapse
                 </a>
-              
             </div>
 
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-              
                 <a href="/2019/07/19/e5-a4-a7-e5-ad-a6-e7-94-9f-e6-b4-bb-e6-8c-87-e5-8d-97-e5-a6-82-e4-bd-95-e9-80-89-e6-8b-a9-e9-80-82-e7-94-a8-e4-ba-8e-e5-af-9d-e5-ae-a4-e7-9a-84-e8-b7-af-e7-94-b1-e5-99-a8-e4-b8-8e-e5-90-88-e9-80-82/" rel="prev" title="大学生活指南-如何选择适用于寝室的路由器与合适的网络配置">
                   大学生活指南-如何选择适用于寝室的路由器与合适的网络配置 <i class="fa fa-chevron-right"></i>
                 </a>
-              
             </div>
           </div>
-        
       </footer>
     
-  </div>
-  
-  
-  
   </article>
+  
+  
+  
 
   </div>
 
 
           </div>
           
-    
     
   <div class="comments" id="comments">
     <div id="disqus_thread">
@@ -463,26 +391,18 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
     </div>
   </div>
   
-  
 
         </div>
           
   
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
   </div>
 
   <aside class="sidebar">
     <div class="sidebar-inner">
-        
-        
-        
-        
-      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -500,69 +420,37 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image"
-      src="https://i.loli.net/2019/09/09/WJ5pAZj2Ec8Dv4u.jpg"
-      alt="sparktour">
+  <img class="site-author-image" itemprop="image" alt="sparktour"
+    src="https://i.loli.net/2019/09/09/WJ5pAZj2Ec8Dv4u.jpg">
   <p class="site-author-name" itemprop="name">sparktour</p>
   <div class="site-description" itemprop="description">Sparktour's New Blog</div>
 </div>
-  <nav class="site-state motion-element">
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
       <div class="site-state-item site-state-posts">
-        
           <a href="/archives/">
         
           <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
-    
-      
-      
       <div class="site-state-item site-state-categories">
-        
         <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">categories</span>
-        
       </div>
-    
-      
-      
       <div class="site-state-item site-state-tags">
-        
         <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span>
-        
       </div>
-    
   </nav>
-  <div class="feed-link motion-element">
-    <a href="/atom.xml" rel="alternate">
-      <i class="fa fa-rss"></i>RSS
-    </a>
-  </div>
+</div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
-      
-      
-        
-      
-      
-        
-      
-        <a href="https://github.com/sparkcyf" title="GitHub &rarr; https://github.com/sparkcyf" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+        <a href="https://github.com/sparkcyf" title="GitHub &amp;rarr; https:&#x2F;&#x2F;github.com&#x2F;sparkcyf" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
       </span>
-    
       <span class="links-of-author-item">
-      
-      
-        
-      
-      
-        
-      
-        <a href="https://zh.wikipedia.org/wiki/User:Sparktour" title="Wikipedia &rarr; https://zh.wikipedia.org/wiki/User:Sparktour" rel="noopener" target="_blank"><i class="fa fa-fw fa-wikipedia"></i>Wikipedia</a>
+        <a href="https://zh.wikipedia.org/wiki/User:Sparktour" title="Wikipedia &amp;rarr; https:&#x2F;&#x2F;zh.wikipedia.org&#x2F;wiki&#x2F;User:Sparktour" rel="noopener" target="_blank"><i class="fa fa-fw fa-wikipedia"></i>Wikipedia</a>
       </span>
-    
   </div>
 
 
@@ -577,17 +465,24 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
       </div>
     </main>
 
-    <footer id="footer" class="footer">
+    <footer class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
-  <span class="with-love" id="animate">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">sparktour</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
+  </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.4.0</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.4.3
+  </div>
 
         
 
@@ -608,15 +503,12 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
   </div>
 
   
-
-
-  <script src="/lib/anime.min.js?v=3.1.0"></script>
-  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-<script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
-<script src="/js/schemes/pisces.js?v=7.4.0"></script>
-
-<script src="/js/next-boot.js?v=7.4.0"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script>
 
 
 
@@ -625,12 +517,7 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
 
 
 
-
-
-
-
-  <script src="/js/local-search.js?v=7.4.0"></script>
-
+  <script src="/js/local-search.js"></script>
 
 
 
@@ -643,8 +530,6 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
 
 
 
-
-  
 
   
 
@@ -661,15 +546,16 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
   window.addEventListener('load', loadCount, false);
 </script>
 <script>
-  function disqus_config() {
-    this.page.url = "https://www.sparktour.me/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/";
-    this.page.identifier = "2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/";
-    this.page.title = 'Enable Pixel 1 \'s lte in CT/CMCC/CU & Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信/联通/移动lte';};
   function loadComments() {
     if (window.DISQUS) {
       DISQUS.reset({
         reload: true,
-        config: disqus_config
+        config: {page: {
+            url: "https://www.sparktour.me/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/",
+            identifier: "2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/",
+            title: "Enable Pixel 1 's lte in CT/CMCC/CU & Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信/联通/移动lte"
+          }
+        }
       });
     } else {
       var d = document, s = d.createElement('script');
@@ -679,7 +565,6 @@ fastboot reboot</code></pre><p>重启之后开关一下飞行模式应该就可�
     }
   }
     window.addEventListener('load', loadComments, false);
-  
 </script>
 
 </body>
