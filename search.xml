@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>在 Ubuntu/Debian 配置 Smokeping 并使用 Caddy 作为服务器</title>
+    <url>/2020/03/04/smokeping-with-caddy/</url>
+    <content><![CDATA[<p>在 debian/ubuntu 上安装 Smokeping 时, apt 只会给一个用于 apache2 的配置. 并不能直接用于其他的 Web 服务器, 但迫于VPS上的用的 Web 服务器是 Caddy 因此就参考网上的资料整理出了给 Caddy 用的配置方法.</p>
+<a id="more"></a>
+<p>首先需要安装 Smokeping ,并且 disable 掉安装时自带的 Apache2.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">apt install smokeping</span><br><span class="line">systemctl stop apache2</span><br><span class="line">systemctl disable apache2</span><br></pre></td></tr></table></figure>
+
+<p>还需要装一个fcgiwarp来处理到smokeping的请求,并且装完之后将它启动:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">apt install fcgiwrap</span><br><span class="line">systemctl enable fcgiwrap.socket</span><br><span class="line">systemctl start fcgiwrap.socket</span><br></pre></td></tr></table></figure>
+<p>这时候应该能在 <code>/var/run</code> 里面看到 <code>fcgiwrap.socket</code> 这个文件了.</p>
+<p>Caddy不需要其他的插件就可以使用.</p>
+<p>之后查看一下smokeping的网页和cgi程序装在了哪里. 在这里它位于 <code>/usr/share/smokeping</code> 里面;图片缓存,js,css在 <code>/usr/share/smokeping/www</code> 里面.</p>
+<p>下面是 Caddy 的配置:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">smokeping.example.com &#123;</span><br><span class="line"></span><br><span class="line">        root &#x2F;usr&#x2F;share&#x2F;smokeping&#x2F;www</span><br><span class="line"></span><br><span class="line">        fastcgi &#x2F; unix:&#x2F;var&#x2F;run&#x2F;fcgiwrap.socket &#123;</span><br><span class="line">                env SCRIPT_FILENAME &#x2F;usr&#x2F;share&#x2F;smokeping&#x2F;smokeping.cgi</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">smokeping.example.com&#x2F;js &#123;</span><br><span class="line">        root &#x2F;usr&#x2F;share&#x2F;smokeping&#x2F;www&#x2F;js</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">smokeping.example.com&#x2F;css &#123;</span><br><span class="line">        root &#x2F;usr&#x2F;share&#x2F;smokeping&#x2F;www&#x2F;css</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">smokeping.example.com&#x2F;cache &#123;</span><br><span class="line">        root &#x2F;var&#x2F;cache&#x2F;smokeping</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">smokeping.example.com&#x2F;smokeping&#x2F;images &#123;</span><br><span class="line">	      root &#x2F;usr&#x2F;share&#x2F;smokeping&#x2F;www&#x2F;images</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>需要注意的是, fastcgi 下面对应的文件是 <code>smokeping.cgi</code> 而不是 <code>www</code> 里面的 <code>smokeping.fcgi.dist</code> , 以及图片也需要单独列一个路径,不然到时候可能无法显示监测的图片.</p>
+<p>配置完成 Smokeping 和 Caddy 之后, 可以先用 <code>smokeping --debug</code> 来测试一下smokeping能不能正常运行,如果能正常运行,此时访问 <code>smokeping.example.com</code> 应该就能正常进行网络监测了.</p>
+<p><img src="https://i.loli.net/2020/03/04/EmqZ8aOu7FoQd4i.png" alt="配置完成之后"></p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
+<li><a href="https://caddy.community/t/smokeping-caddyfile/3560" target="_blank" rel="noopener">Caddy Community 上的讨论</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/Smokeping#Caddy" target="_blank" rel="noopener">Archlinux Wiki</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/Smokeping#Caddy" target="_blank" rel="noopener">在网上找到的另一份 Caddy 配置</a>,不过这是给 Arch 的,跟 Debian 系的安装路径什么的还不完全一样.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+  </entry>
+  <entry>
     <title>马草垄行山——换个角度看深圳</title>
     <url>/2019/09/09/Trip-to-Border-of-SZ-and-HK/</url>
     <content><![CDATA[<p></style></p>
@@ -135,7 +163,7 @@
       </categories>
   </entry>
   <entry>
-    <title>Enable Pixel 1 's lte in CT/CMCC/CU & Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信/联通/移动lte</title>
+    <title>Enable Pixel 1 &#39;s lte in CT/CMCC/CU &amp; Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信/联通/移动lte</title>
     <url>/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/</url>
     <content><![CDATA[<p>自从pixel1开始，Google就不再把大陆运营商的lte配置文件内置在手机内了，在使用的过程中就会遇到不少麻烦：联通还能基本正常使用（但似乎配置文件不完整，信号会比较一般），但电信就无法直接使用lte了。</p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg/1280px-Google_Pixel_and_Pixel_XL_smartphones_%2830155272575%29.jpg" alt=""></p>
