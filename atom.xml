@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sparktour&#39;s</title>
+  
+  
+  <link href="https://sparktour.me/atom.xml" rel="self"/>
+  
+  <link href="https://sparktour.me/"/>
+  <updated>2024-02-05T17:02:14.000Z</updated>
+  <id>https://sparktour.me/</id>
+  
+  <author>
+    <name>sparktour</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>沙头角港方禁区一日游</title>
+    <link href="https://sparktour.me/2024/02/05/2024-sha-tau-kok-visit/"/>
+    <id>https://sparktour.me/2024/02/05/2024-sha-tau-kok-visit/</id>
+    <published>2024-02-05T12:00:00.000Z</published>
+    <updated>2024-02-05T17:02:14.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2024/2024-sha-tau-kok-visit/chung-ying-st-police-post-hk.jpeg&quot; alt=&quot;香港一侧的检查站&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;香港一侧的检查站&lt;/figcaption&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第二期沙頭角開放計劃將於2024年一月一日展開，首階段容許每日最多1 000名旅客經網上申請禁區許可證後，進入除中英街以外的整個沙頭角遊覽，讓更多人有機會認識沙頭角和鄰近外島的歷史文化和天然地貌，推廣文化生態旅遊。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="travel" scheme="https://sparktour.me/categories/travel/"/>
+    
+    
+    <category term="travel" scheme="https://sparktour.me/tags/travel/"/>
+    
+    <category term="HK" scheme="https://sparktour.me/tags/HK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PT924G光猫配置VLAN单线复用</title>
+    <link href="https://sparktour.me/2024/02/02/pt924g-modem-vlan/"/>
+    <id>https://sparktour.me/2024/02/02/pt924g-modem-vlan/</id>
+    <published>2024-02-02T12:00:00.000Z</published>
+    <updated>2024-02-08T13:16:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在本文中，我们将介绍如何在PT924G光猫上配置VLAN单线复用，以便在单根光纤上同时传输上网，IPTV和TR069等业务。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="tr069" scheme="https://sparktour.me/tags/tr069/"/>
+    
+    <category term="iptv" scheme="https://sparktour.me/tags/iptv/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为keycloak添加可选的passkey/webauth/OTP登陆</title>
+    <link href="https://sparktour.me/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/"/>
+    <id>https://sparktour.me/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</id>
+    <published>2024-01-24T12:00:00.000Z</published>
+    <updated>2024-01-25T15:17:28.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文描述了为keycloak配置&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9maWRvYWxsaWFuY2Uub3JnL3Bhc3NrZXlzLw==&quot;&gt;passkey&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;，webauth，&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvT25lLXRpbWVfcGFzc3dvcmQ=&quot;&gt;OTP&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;等无密码登陆的流程。本文中的部分配置可能需要&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly93d3cua2V5Y2xvYWsub3JnL2RvY3MvbGF0ZXN0L3JlbGVhc2Vfbm90ZXMvaW5kZXguaHRtbCNwYXNza2V5cy1zdXBwb3J0&quot;&gt;Keycloak 23&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;或者更高的版本才能正常运行。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="keycloak" scheme="https://sparktour.me/tags/keycloak/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Host the MinIO Server API on a subpath and Configure Multi Domain</title>
+    <link href="https://sparktour.me/2024/01/13/host-minio-s3-under-subpath-and-multi-domain/"/>
+    <id>https://sparktour.me/2024/01/13/host-minio-s3-under-subpath-and-multi-domain/</id>
+    <published>2024-01-13T12:00:00.000Z</published>
+    <updated>2024-01-14T20:39:05.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;尽管Minio在文档中明确说明了minio的S3 API&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9taW4uaW8vZG9jcy9taW5pby9saW51eC9pbnRlZ3JhdGlvbnMvc2V0dXAtbmdpbngtcHJveHktd2l0aC1taW5pby5odG1sIzp+OnRleHQ9VGhlJTIwUzMlMjBBUEklMjBzaWduYXR1cmUlMjBjYWxjdWxhdGlvbiUyMGFsZ29yaXRobSUyMGRvZXMlMjBub3QlMjBzdXBwb3J0JTIwcHJveHklMjBzY2hlbWVzJTIwd2hlcmUlMjB5b3UlMjBob3N0JTIwdGhlJTIwTWluSU8lMjBTZXJ2ZXIlMjBBUEklMjBvbiUyMGElMjBzdWJwYXRoJTJDJTIwc3VjaCUyMGFzJTIwbWluaW8uZXhhbXBsZS5uZXQvczMvLg==&quot;&gt;并不支持host在subpath下&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;。但如果真的有需求，我们也可以通过修改nginx的反向代理配置来实现这一点。此方法唯一存在的问题是，bucket的名字需要拥有某个共同的前缀。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="minio" scheme="https://sparktour.me/tags/minio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>照片里的2023</title>
+    <link href="https://sparktour.me/2023/12/31/2023-in-photos/"/>
+    <id>https://sparktour.me/2023/12/31/2023-in-photos/</id>
+    <published>2023-12-31T21:00:00.000Z</published>
+    <updated>2023-12-30T17:06:07.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;所有照片按照时间排列，没有做过任何后期处理。这次使用了avif作为图片容器格式，或许能正确地在网上显示手机拍出来的HDR效果&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2023/2023-in-photos/202301_hzm.avif&quot; alt=&quot;2023年1月，广东，乘船经过港珠澳大桥桥底&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;2023年1月，广东，乘船经过港珠澳大桥桥底&lt;/figcaption&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>USTC Hackergame 2023 Writeup</title>
+    <link href="https://sparktour.me/2023/11/04/ustc-hackergame-2023-writeup/"/>
+    <id>https://sparktour.me/2023/11/04/ustc-hackergame-2023-writeup/</id>
+    <published>2023-11-04T18:00:00.000Z</published>
+    <updated>2023-11-05T22:04:14.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2023/ustc-hackergame-2023-writeup/score.png&quot; alt=&quot;score&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;score&lt;/figcaption&gt;&lt;/p&gt;
+&lt;p&gt;这是本人第四次参加USTC的hackergame了233，有赖今年许多题目正好和运维和&lt;del&gt;环境学&lt;/del&gt;知识相关和&lt;del&gt;ChatGPT的横空出世&lt;/del&gt;，本人的排名总算第一次进了前100。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Mikrotik RouterOS 和 Openwrt 在 ISP 获得的 IPv6 Prefix 上配置二级 PD </title>
+    <link href="https://sparktour.me/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/"/>
+    <id>https://sparktour.me/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/</id>
+    <published>2023-10-18T09:00:00.000Z</published>
+    <updated>2023-10-19T16:49:10.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在中国大陆，电信运营商常为使用PPPoE拨号的用户分配&lt;code&gt;/60&lt;/code&gt;的IPv6 prefix delegation。在本文中，笔者尝试了使用Mikrotik RouterOS获取了电信运营商分配的IPv6 PD，并为下级路由器和PPP接口上的设备继续分发了&lt;code&gt;/64&lt;/code&gt;的IPv6 PD。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2023/mikrotik-routeros-openwrt-ipv6-prefix-delegation/cover.jpg&quot; alt=&quot;DALLE - photo of two routers connected by a cable. One router has a label &amp;#39;OpenWRT&amp;#39; and the other &amp;#39;Mikrotik RouterOS&amp;#39;. Above them is a cloud symbol with &amp;#39;IPv6&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;DALLE - photo of two routers connected by a cable. One router has a label &amp;#39;OpenWRT&amp;#39; and the other &amp;#39;Mikrotik RouterOS&amp;#39;. Above them is a cloud symbol with &amp;#39;IPv6&lt;/figcaption&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="openwrt" scheme="https://sparktour.me/tags/openwrt/"/>
+    
+    <category term="routeros" scheme="https://sparktour.me/tags/routeros/"/>
+    
+    <category term="dhcpv6" scheme="https://sparktour.me/tags/dhcpv6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Mellanox网卡基于RDMA挂载NFS</title>
+    <link href="https://sparktour.me/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/"/>
+    <id>https://sparktour.me/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</id>
+    <published>2023-08-24T12:00:00.000Z</published>
+    <updated>2024-02-03T18:41:19.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;笔者的实验室于近期购置了8块nvme硬盘，通过pcie转接卡转接至一台服务器，并用ZFS组了RAID。为了能让实验室的其他服务器也能快速访问主机上的存储池，笔者去闲鱼套了两块ConnectX-4 CX4121A 10Gbe 的万兆网卡用来连接两台服务器，并配置了NFS Over RDMA。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="mellanox" scheme="https://sparktour.me/tags/mellanox/"/>
+    
+    <category term="nfs" scheme="https://sparktour.me/tags/nfs/"/>
+    
+    <category term="rdma" scheme="https://sparktour.me/tags/rdma/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>进入欧盟口岸区——2023欧洲之旅</title>
+    <link href="https://sparktour.me/2023/08/01/2023-summer-europe-travel-notes/"/>
+    <id>https://sparktour.me/2023/08/01/2023-summer-europe-travel-notes/</id>
+    <published>2023-08-01T18:00:00.000Z</published>
+    <updated>2023-08-14T22:38:55.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这篇博客分享笔者于2023年暑假的欧洲旅行，笔者在本次时长两周的旅行中去到了法国、荷兰、瑞典、爱沙尼亚和芬兰。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2023/2023-summer-europe-travel-notes/IMG_3236_eiffel_from_adt.jpeg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="travel" scheme="https://sparktour.me/categories/travel/"/>
+    
+    
+    <category term="travel" scheme="https://sparktour.me/tags/travel/"/>
+    
+    <category term="欧洲" scheme="https://sparktour.me/tags/%E6%AC%A7%E6%B4%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>国际亚洲度会——新加坡之旅</title>
+    <link href="https://sparktour.me/2023/02/01/2023-winter-singapore-travel-notes/"/>
+    <id>https://sparktour.me/2023/02/01/2023-winter-singapore-travel-notes/</id>
+    <published>2023-02-01T18:00:00.000Z</published>
+    <updated>2023-02-19T23:19:49.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2023/2023-winter-singapore-travel-notes/d0-SIN-coast.jpg&quot; alt=&quot;飞机降落时拍到的新加坡海岸线&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;飞机降落时拍到的新加坡海岸线&lt;/figcaption&gt;&lt;/p&gt;
+&lt;p&gt;随着中国内地最终「与病毒共存」并于1月8日不再要求入境人士进行隔离，笔者也与朋友于1月末前往新加坡旅行了大约一周。以下则是笔者对这一周行程的流水账记录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="travel" scheme="https://sparktour.me/categories/travel/"/>
+    
+    
+    <category term="travel" scheme="https://sparktour.me/tags/travel/"/>
+    
+    <category term="新加坡" scheme="https://sparktour.me/tags/%E6%96%B0%E5%8A%A0%E5%9D%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>照片里的2022</title>
+    <link href="https://sparktour.me/2022/12/31/2022-in-photos/"/>
+    <id>https://sparktour.me/2022/12/31/2022-in-photos/</id>
+    <published>2022-12-31T21:00:00.000Z</published>
+    <updated>2023-01-17T20:28:09.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;所有照片按照时间排列。由于&lt;del&gt;嫌麻烦&lt;/del&gt;，照片都没有做过任何后期处理，权当是记录一下我的2022吧。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2022/2022-in-photos/202212_stopped_pcr_station.jpg&quot; alt=&quot;2022年12月，共存后被拆除的核酸采样点&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;2022年12月，共存后被拆除的核酸采样点&lt;/figcaption&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>通过PC/SC智能卡读卡器配置esim.me的SIM卡</title>
+    <link href="https://sparktour.me/2022/11/20/configure-esim-me-card-with-pc-sc-reader/"/>
+    <id>https://sparktour.me/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</id>
+    <published>2022-11-20T12:00:00.000Z</published>
+    <updated>2022-11-21T22:04:05.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近从群友处得到了数张&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9lc2ltLm1lLw==&quot;&gt;esim.me&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;的「可拆卸eSIM卡」。简而言之，这种esim卡被制造成普通sim卡的形态，因此能够直接插入任意支持物理sim卡的手机，并通过esim.me提供的android app为esim卡添加profile。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="esim.me" scheme="https://sparktour.me/tags/esim-me/"/>
+    
+    <category term="smartcard" scheme="https://sparktour.me/tags/smartcard/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>配置 Linksys SPA3102 并接入固定电话网</title>
+    <link href="https://sparktour.me/2022/10/15/voip-fxo-via-linksys-spa3102/"/>
+    <id>https://sparktour.me/2022/10/15/voip-fxo-via-linksys-spa3102/</id>
+    <published>2022-10-15T12:00:00.000Z</published>
+    <updated>2023-04-06T17:05:18.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在本篇文章中，笔者尝试使用Linksys (CISCO &amp;#x2F; SIPURA) SPA3102连接固话网络并接入freepbx，将固定电话的信号转换为了VoIP（SIP）协议。本文的效果与&lt;a href=&quot;/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/&quot;&gt;《使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP》&lt;/a&gt;一文中的类似。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2022/voip-fxo-via-linksys-spa3102/spa3102.jpeg&quot; alt=&quot;spa3102&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;spa3102&lt;/figcaption&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="asterisk" scheme="https://sparktour.me/tags/asterisk/"/>
+    
+    <category term="freepbx" scheme="https://sparktour.me/tags/freepbx/"/>
+    
+    <category term="sip" scheme="https://sparktour.me/tags/sip/"/>
+    
+    <category term="fxo" scheme="https://sparktour.me/tags/fxo/"/>
+    
+    <category term="spa3102" scheme="https://sparktour.me/tags/spa3102/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP</title>
+    <link href="https://sparktour.me/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/"/>
+    <id>https://sparktour.me/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</id>
+    <published>2022-10-14T12:00:00.000Z</published>
+    <updated>2022-10-14T23:41:05.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在本篇文章中，笔者尝试使用TDM410p FXO卡和freepbx，将固定电话的信号转换为了VoIP（SIP）协议，并使用SIP话机接打电话。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="asterisk" scheme="https://sparktour.me/tags/asterisk/"/>
+    
+    <category term="freepbx" scheme="https://sparktour.me/tags/freepbx/"/>
+    
+    <category term="sip" scheme="https://sparktour.me/tags/sip/"/>
+    
+    <category term="tdm410p" scheme="https://sparktour.me/tags/tdm410p/"/>
+    
+    <category term="fxo" scheme="https://sparktour.me/tags/fxo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用EC20模块配合asterisk及freepbx实现短信转发和网络电话</title>
+    <link href="https://sparktour.me/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/"/>
+    <id>https://sparktour.me/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</id>
+    <published>2022-10-08T12:00:00.000Z</published>
+    <updated>2024-02-23T14:51:59.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;由于内地各种互联网服务与手机强绑定的前提下，每个人手上的手机号码变得越来越多。在互联网上，早已有包括&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9naXRodWIuY29tL3RlbGVncmFtLXNtcy90ZWxlZ3JhbS1zbXMtY2hpbmE=&quot;&gt;telegram-sms&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;，&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9naXRodWIuY29tL3BwcHNjbi9TbXNGb3J3YXJkZXI=&quot;&gt;SMS-forwarder&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;等不同的应用被用来解决不想随身带着某张手机卡，却还需要拿他接收发送短信的场景。不过美中不足的是，由于这些应用均需要安装在手机上，这些短信转发应用均存在因国产android系统严格的后台限制被休眠导致无法转发短信的情况。同时，将带电池的旧手机长期插电也有一些安全隐患（电池鼓包等）。最重要的是，这些短信转发转发软件无法转移呼入和呼出的电话。为了解决上述的这些问题，在本文中，笔者基于EC20和东拼西凑的软件，实现了通过telegram等即时通讯软件收发短信，并通过SIP客户端从互联网呼出和接听电话。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="ec20" scheme="https://sparktour.me/tags/ec20/"/>
+    
+    <category term="asterisk" scheme="https://sparktour.me/tags/asterisk/"/>
+    
+    <category term="freepbx" scheme="https://sparktour.me/tags/freepbx/"/>
+    
+    <category term="sip" scheme="https://sparktour.me/tags/sip/"/>
+    
+    <category term="volte" scheme="https://sparktour.me/tags/volte/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Openwrt 和通用Linux设备通过 IPIP/GRETAP 进行二层组网</title>
+    <link href="https://sparktour.me/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/"/>
+    <id>https://sparktour.me/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/</id>
+    <published>2022-09-18T12:00:00.000Z</published>
+    <updated>2023-10-19T16:49:10.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在&lt;a href=&quot;/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/&quot;&gt;前一篇文章中&lt;/a&gt;，笔者尝试了用Openwrt和RouterOS配合IPIP和EoIP隧道进行二层组网。但由于Openwrt的EoIP包是一个&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9mb3J1bS5vcGVud3J0Lm9yZy90L3BsZWFzZS1hZGQtMi1uZXctcGFja2FnZXMtZm9yLWVvaXAvNTcxMTM=&quot;&gt;用户态的包&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;，AX6s转发EoIP流量的性能并不是特别好（有线500Mbps，无线300Mbps），同时RouterOS也是一个收费系统，并不是所有人都会只为了组网来购买RouterOS的授权。鉴于此，笔者也在下文提供一种将IPoE替换为GRETAP协议进行二层组网的方案，此方案仅需一台运行于实验室内网的通用Linux设备即可（本文使用的是Debian11）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="openwrt" scheme="https://sparktour.me/tags/openwrt/"/>
+    
+    <category term="gre" scheme="https://sparktour.me/tags/gre/"/>
+    
+    <category term="ipip" scheme="https://sparktour.me/tags/ipip/"/>
+    
+    <category term="gretap" scheme="https://sparktour.me/tags/gretap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Openwrt 和 MikroTik RouterOS 路由器通过 IPIP/EOIP 进行二层组网</title>
+    <link href="https://sparktour.me/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/"/>
+    <id>https://sparktour.me/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/</id>
+    <published>2022-09-18T12:00:00.000Z</published>
+    <updated>2022-09-19T00:01:31.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;一直以来，本地路由器远程连接实验室的网络连接都是通过办公室ikuai软路由的L2TP连接实现的，但L2TP作为一个有状态协议，在遇到连接中断后恢复起来会比较麻烦，以及ikuai的L2TP server并不是很稳定，且没有办法分配IPv6。因此在近期，笔者将路由器连接实验室网络的组网方式改为了IPIP及EoIP的组合组网配置，并在很大程度上解决了上述问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="openwrt" scheme="https://sparktour.me/tags/openwrt/"/>
+    
+    <category term="routeros" scheme="https://sparktour.me/tags/routeros/"/>
+    
+    <category term="ipip" scheme="https://sparktour.me/tags/ipip/"/>
+    
+    <category term="eoip" scheme="https://sparktour.me/tags/eoip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>「动态清零」下的毕业旅行——青甘大环线</title>
+    <link href="https://sparktour.me/2022/07/18/qinghai-gansu-trip-2022/"/>
+    <id>https://sparktour.me/2022/07/18/qinghai-gansu-trip-2022/</id>
+    <published>2022-07-18T18:00:00.000Z</published>
+    <updated>2022-07-22T18:14:33.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;「动态清零」下的毕业旅行——青甘大环线&quot;&gt;&lt;a href=&quot;#「动态清零」下的毕业旅行——青甘大环线&quot; class=&quot;headerlink&quot; title=&quot;「动态清零」下的毕业旅行——青甘大环线&quot;&gt;&lt;/a&gt;「动态清零」下的毕业旅行——青甘大环线&lt;/h1&gt;&lt;p&gt;笔者的毕业旅行最早是在2021年末就有了初步的想法，不过当时是去上海和浙江附近玩一圈，但随着&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvMjAyMiVFNSVCOSVCNDMlRTYlOUMlODglRTQlQjglOEElRTYlQjUlQjclRTUlQjglODIyMDE5JUU1JTg2JUEwJUU3JThBJUI2JUU3JTk3JTg1JUU2JUFGJTkyJUU3JTk3JTg1JUU4JTgxJTlBJUU5JTlCJTg2JUU2JTgwJUE3JUU3JTk2JUFCJUU2JTgzJTg1&quot;&gt;上海的封控&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;和各地区的加码，在22年4-5月时，大部分城市都要求所在区有一例COVID-19确诊就就要求原地隔离，我们一度认为毕业旅游的计划可能已经泡汤了，不过随着6月国务院提出了「&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cDovL3d3dy5nb3YuY24veGlud2VuLzIwMjItMDYvMjUvY29udGVudF81Njk3Nzc4Lmh0bQ==&quot;&gt;九不准&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;」（具体对我们的旅行有影响的是「不准随意将限制出行的范围由中、高风险地区扩大到其他地区；不准对来自低风险地区人员采取强制劝返、隔离等限制措施；」两条），各地的入境政策有所放松。于是我们于6月初逐步定下了前往西藏旅游的计划。不过随着6月18日左右深圳再次出现新增，为了避免不必要的麻烦，我们最终选择了在当时防控政策较为宽松的青海和甘肃进行旅行。随着&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cDovL3d3dy5nb3YuY24veGlud2VuLzIwMjItMDMvMTUvY29udGVudF81Njc5MjU4Lmh0bQ==&quot;&gt;第九版诊疗方案&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;的发布，方案也明确了「不允许对低风险地区入市人员进行隔离」，我们最终确认了毕业旅行的方案——包车行走一次青海-甘肃环线。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2022/qinghai-gansu-trip-2022/74_xingchengka.PNG&quot; alt=&quot;行程卡&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;行程卡&lt;/figcaption&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="travel" scheme="https://sparktour.me/categories/travel/"/>
+    
+    
+    <category term="travel" scheme="https://sparktour.me/tags/travel/"/>
+    
+    <category term="青甘大环线" scheme="https://sparktour.me/tags/%E9%9D%92%E7%94%98%E5%A4%A7%E7%8E%AF%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为自部署Overleaf/Sharelatex实例添加LDAP和OAuth2/OpenID Connect登录支持</title>
+    <link href="https://sparktour.me/2022/06/11/self-host-overleaf-with-ldap-and-oauth2-support/"/>
+    <id>https://sparktour.me/2022/06/11/self-host-overleaf-with-ldap-and-oauth2-support/</id>
+    <published>2022-06-11T09:00:00.000Z</published>
+    <updated>2024-03-16T10:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img data-src=&quot;https://assets.sparktour.me/img/blog/2022/self-host-overleaf-with-ldap-and-oauth2-support/cover.png&quot; alt=&quot;效果图&quot;&gt;&lt;figcaption aria-hidden=&quot;true&quot;&gt;效果图&lt;/figcaption&gt;&lt;/p&gt;
+&lt;p&gt;既去年给自部署Overleaf实例添加了邮箱注册功能之后，最近在TUNA的同学的帮助下，笔者也为南科大的Overleaf实例添加了LDAP登录和OAuth2&amp;#x2F;OpenID Connect登录的选项，进一步减少了用户登录Overleaf时需要的步骤。由于加上了外部的单点登录，学校的Overleaf也就不再需要邮件注册的功能了，因此本文将不再提及如何启用邮件注册，如需了解可以看笔者之前写的文章。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="keycloak" scheme="https://sparktour.me/tags/keycloak/"/>
+    
+    <category term="overleaf" scheme="https://sparktour.me/tags/overleaf/"/>
+    
+    <category term="sharelatex" scheme="https://sparktour.me/tags/sharelatex/"/>
+    
+    <category term="LDAP" scheme="https://sparktour.me/tags/LDAP/"/>
+    
+    <category term="OAuth2" scheme="https://sparktour.me/tags/OAuth2/"/>
+    
+    <category term="OpenID" scheme="https://sparktour.me/tags/OpenID/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无需其他Openwrt路由器，使用任意带无线网的Linux机器解锁红米AX6路由器的SSH</title>
+    <link href="https://sparktour.me/2022/03/18/enable-redmi-ssh-without-openwrt/"/>
+    <id>https://sparktour.me/2022/03/18/enable-redmi-ssh-without-openwrt/</id>
+    <published>2022-03-18T14:00:00.000Z</published>
+    <updated>2022-03-18T16:21:46.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近小米有品上再次开始售卖起了&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly93d3cueGlhb21peW91cGluLmNvbS9kZXRhaWw/Z2lkPTEzNDIyMA==&quot;&gt;红米AX6&lt;i class=&quot;fa fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/span&gt;，由于这是小米出品的，能刷Openwrt的机器中较为便宜的一款，便购买了一台。根据网上的一些帖子，解锁AX6的SSH需要额外找一台运行Openwrt的路由器来跑脚本。不过经过研究，理论上&lt;strong&gt;任何能够开Wi-Fi热点（AP），且能够配置静态IP的设备&lt;/strong&gt;都能用于路由器的解锁。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="tech" scheme="https://sparktour.me/categories/tech/"/>
+    
+    
+    <category term="tech" scheme="https://sparktour.me/tags/tech/"/>
+    
+    <category term="AX6" scheme="https://sparktour.me/tags/AX6/"/>
+    
+    <category term="openwrt" scheme="https://sparktour.me/tags/openwrt/"/>
+    
+    <category term="ssh" scheme="https://sparktour.me/tags/ssh/"/>
+    
+    <category term="解锁" scheme="https://sparktour.me/tags/%E8%A7%A3%E9%94%81/"/>
+    
+    <category term="小米" scheme="https://sparktour.me/tags/%E5%B0%8F%E7%B1%B3/"/>
+    
+  </entry>
+  
+</feed>
