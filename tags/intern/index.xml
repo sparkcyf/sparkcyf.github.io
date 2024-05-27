@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Intern on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/intern/</link>
+    <description>Recent content in Intern on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 15 Apr 2024 09:09:20 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/intern/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>腾讯实习小结：你走过的路都将会在未来发挥意想不到的作用</title>
+      <link>https://blog.sparktour.me/posts/2021/08/10/tencent-intern-conclusion/</link>
+      <pubDate>Tue, 10 Aug 2021 21:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/08/10/tencent-intern-conclusion/</guid>
+      <description>腾讯实习小结：你走过的路都将会在未来发挥意想不到的作用 时间过得很快，本周已经是实习的第七周，实习的最后一周了。腾讯的实习让我认识到了许多不曾</description>
+    </item>
+    <item>
+      <title>腾讯实习初体验</title>
+      <link>https://blog.sparktour.me/posts/2021/07/04/tencent-intern-first-impression/</link>
+      <pubDate>Sun, 04 Jul 2021 13:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/07/04/tencent-intern-first-impression/</guid>
+      <description>腾讯实习初体验 说起来这个实习的来历还十分坎坷。在三月份的实习申请季，学院为我们推荐了华为海思的实习，可海思的实习笔试占比的绝大部分均是和ve</description>
+    </item>
+  </channel>
+</rss>

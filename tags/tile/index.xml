@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tile on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/tile/</link>
+    <description>Recent content in Tile on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 18 Apr 2024 18:30:45 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/tile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自建OpenStreetmap地图瓦片服务</title>
+      <link>https://blog.sparktour.me/posts/2021/08/03/self-host-openstreetmap-tiles-server/</link>
+      <pubDate>Tue, 03 Aug 2021 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/08/03/self-host-openstreetmap-tiles-server/</guid>
+      <description>自建OpenStreetsmap地图瓦片服务 地图显示效果 迫于openstreetsmap官方的瓦片服务器（tile server）速度太慢，而</description>
+    </item>
+  </channel>
+</rss>

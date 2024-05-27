@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tdm410p on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/tdm410p/</link>
+    <description>Recent content in Tdm410p on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/tdm410p/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP</title>
+      <link>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</link>
+      <pubDate>Fri, 14 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</guid>
+      <description>在本篇文章中，笔者尝试使用TDM410p FXO卡和freepbx，将固定电话的信号转换为了VoIP（SIP）协议，并使用SIP话机接打电话。</description>
+    </item>
+  </channel>
+</rss>

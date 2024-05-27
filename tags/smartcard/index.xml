@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Smartcard on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/smartcard/</link>
+    <description>Recent content in Smartcard on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/smartcard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过PC/SC智能卡读卡器配置esim.me的SIM卡</title>
+      <link>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</guid>
+      <description>最近从群友处得到了数张esim.me的「可拆卸eSIM卡」。简而言之，这种esim卡被制造成普通sim卡的形态，因此能够直接插入任意支持物理</description>
+    </item>
+  </channel>
+</rss>

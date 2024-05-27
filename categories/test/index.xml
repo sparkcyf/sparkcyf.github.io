@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/categories/test/</link>
+    <description>Recent content in Test on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 18 Apr 2024 16:54:14 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World!</title>
+      <link>https://blog.sparktour.me/posts/2019/04/18/hello-world-1/</link>
+      <pubDate>Thu, 18 Apr 2019 11:24:27 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/04/18/hello-world-1/</guid>
+      <description>Officially Say Hello to The World 我的第一个自建的blog总算搭好了（虽然说只是一个基于Wordpress的玩意） 现在它运行在GCE上，对于电信用户来说，体验应该</description>
+    </item>
+    <item>
+      <title>a little test about image</title>
+      <link>https://blog.sparktour.me/posts/2019/04/17/a-little-test-about-image/</link>
+      <pubDate>Wed, 17 Apr 2019 20:36:45 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/04/17/a-little-test-about-image/</guid>
+      <description>Shenzhen Bay Bridge To HK on Shenzhen Side on 26 July 2018</description>
+    </item>
+  </channel>
+</rss>

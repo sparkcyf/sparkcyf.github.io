@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tech on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/tech/</link>
+    <description>Recent content in Tech on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.126.1</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 19 Apr 2024 09:59:44 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PT924G光猫配置VLAN单线复用</title>
+      <link>https://blog.sparktour.me/posts/2024/02/02/pt924g-modem-vlan/</link>
+      <pubDate>Fri, 02 Feb 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/02/02/pt924g-modem-vlan/</guid>
+      <description>在本文中，我们将介绍如何在PT924G光猫上配置VLAN单线复用，以便在单根光纤上同时传输上网，IPTV和TR069等业务。 获取超级管理员密</description>
+    </item>
+    <item>
+      <title>为keycloak添加可选的passkey/webauth/OTP登陆</title>
+      <link>https://blog.sparktour.me/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</link>
+      <pubDate>Wed, 24 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</guid>
+      <description>本文描述了为keycloak配置passkey，webauth，OTP等无密码登陆的流程。本文中的部分配置可能需要Keycloak 23或者更</description>
+    </item>
+    <item>
+      <title>Host the MinIO Server API on a subpath and Configure Multi Domain</title>
+      <link>https://blog.sparktour.me/posts/2024/01/13/host-minio-s3-under-subpath-and-multi-domain/</link>
+      <pubDate>Sat, 13 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/01/13/host-minio-s3-under-subpath-and-multi-domain/</guid>
+      <description>尽管Minio在文档中明确说明了minio的S3 API并不支持host在subpath下。但如果真的有需求，我们也可以通过修改nginx的反</description>
+    </item>
+    <item>
+      <title>USTC Hackergame 2023 Writeup</title>
+      <link>https://blog.sparktour.me/posts/2023/11/04/ustc-hackergame-2023-writeup/</link>
+      <pubDate>Sat, 04 Nov 2023 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/11/04/ustc-hackergame-2023-writeup/</guid>
+      <description>这是本人第四次参加USTC的hackergame了233，有赖今年许多题目正好和运维和环境学知识相关和ChatGPT的横空出世，本人的排名总</description>
+    </item>
+    <item>
+      <title>使用 Mikrotik RouterOS 和 Openwrt 在 ISP 获得的 IPv6 Prefix 上配置二级 PD </title>
+      <link>https://blog.sparktour.me/posts/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/</link>
+      <pubDate>Wed, 18 Oct 2023 09:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/</guid>
+      <description>在中国大陆，电信运营商常为使用PPPoE拨号的用户分配/60的IPv6 prefix delegation。在本文中，笔者尝试了使用Mikrotik Rou</description>
+    </item>
+    <item>
+      <title>使用Mellanox网卡基于RDMA挂载NFS</title>
+      <link>https://blog.sparktour.me/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</link>
+      <pubDate>Thu, 24 Aug 2023 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</guid>
+      <description>笔者的实验室于近期购置了8块nvme硬盘，通过pcie转接卡转接至一台服务器，并用ZFS组了RAID。为了能让实验室的其他服务器也能快速访问</description>
+    </item>
+    <item>
+      <title>通过PC/SC智能卡读卡器配置esim.me的SIM卡</title>
+      <link>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</guid>
+      <description>最近从群友处得到了数张esim.me的「可拆卸eSIM卡」。简而言之，这种esim卡被制造成普通sim卡的形态，因此能够直接插入任意支持物理</description>
+    </item>
+    <item>
+      <title>配置 Linksys SPA3102 并接入固定电话网</title>
+      <link>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</link>
+      <pubDate>Sat, 15 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</guid>
+      <description>在本篇文章中，笔者尝试使用Linksys (CISCO / SIPURA) SPA3102连接固话网络并接入freepbx，将固定电话的信号转换为了VoIP（SIP）协议</description>
+    </item>
+    <item>
+      <title>使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP</title>
+      <link>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</link>
+      <pubDate>Fri, 14 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</guid>
+      <description>在本篇文章中，笔者尝试使用TDM410p FXO卡和freepbx，将固定电话的信号转换为了VoIP（SIP）协议，并使用SIP话机接打电话。</description>
+    </item>
+    <item>
+      <title>使用EC20模块配合asterisk及freepbx实现短信转发和网络电话</title>
+      <link>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</link>
+      <pubDate>Sat, 08 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</guid>
+      <description>由于内地各种互联网服务与手机强绑定的前提下，每个人手上的手机号码变得越来越多。在互联网上，早已有包括telegram-sms，SMS-for</description>
+    </item>
+    <item>
+      <title>Openwrt 和 MikroTik RouterOS 路由器通过 IPIP/EOIP 进行二层组网</title>
+      <link>https://blog.sparktour.me/posts/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/</link>
+      <pubDate>Sun, 18 Sep 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/</guid>
+      <description>一直以来，本地路由器远程连接实验室的网络连接都是通过办公室ikuai软路由的L2TP连接实现的，但L2TP作为一个有状态协议，在遇到连接中断</description>
+    </item>
+    <item>
+      <title>Openwrt 和通用Linux设备通过 IPIP/GRETAP 进行二层组网</title>
+      <link>https://blog.sparktour.me/posts/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/</link>
+      <pubDate>Sun, 18 Sep 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/</guid>
+      <description>在前一篇文章中，笔者尝试了用Openwrt和RouterOS配合IPIP和EoIP隧道进行二层组网。但由于Openwrt的EoIP包是一个用</description>
+    </item>
+    <item>
+      <title>无需其他Openwrt路由器，使用任意带无线网的Linux机器解锁红米AX6路由器的SSH</title>
+      <link>https://blog.sparktour.me/posts/2022/03/18/enable-redmi-ssh-without-openwrt/</link>
+      <pubDate>Fri, 18 Mar 2022 14:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/03/18/enable-redmi-ssh-without-openwrt/</guid>
+      <description>最近小米有品上再次开始售卖起了红米AX6，由于这是小米出品的，能刷Openwrt的机器中较为便宜的一款，便购买了一台。根据网上的一些帖子，解</description>
+    </item>
+    <item>
+      <title>处理华为核心防火墙导致的TLS连接重置问题</title>
+      <link>https://blog.sparktour.me/posts/2021/04/25/huawei-usg9500-firewall-tls-reset-issue/</link>
+      <pubDate>Sun, 25 Apr 2021 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/04/25/huawei-usg9500-firewall-tls-reset-issue/</guid>
+      <description>本文是2021年4月时，南科大镜像站遇到的TLS连接重置问题的调试存档。一句话概括情况：在校外向镜像站公网v4地址(116.7.234.22</description>
+    </item>
+  </channel>
+</rss>
