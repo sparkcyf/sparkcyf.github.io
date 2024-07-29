@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/posts/</link>
+    <description>Recent content in Posts on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jul 2024 21:32:07 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Weekend Trip to Kansai, Japan</title>
+      <link>https://blog.sparktour.me/en/posts/2024/05/25/2024-japan-kansai-trip/</link>
+      <pubDate>Sat, 25 May 2024 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2024/05/25/2024-japan-kansai-trip/</guid>
+      <description>This weekend trip was sparked by my friend getting a student discount on a hkexpress flight, with round-trip tickets for each of us costing just 1300HKD.  Considering our limited travel time, we decided to stick to the Kansai region of Japan, focusing on Osaka and Kyoto.</description>
+    </item>
+    <item>
+      <title>Exporting Your Personal Data from the Schengen Visa Information System (VIS)</title>
+      <link>https://blog.sparktour.me/en/posts/2024/04/10/export-schengen-vis-info/</link>
+      <pubDate>Wed, 10 Apr 2024 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2024/04/10/export-schengen-vis-info/</guid>
+      <description>Many people applying for Schengen visas have heard of the Visa Information System (VIS). VIS allows Schengen countries to exchange visa data. It consists of a central IT system and the communication infrastructure connecting this central system to national systems. It processes data and decisions related to applications for short-stay visas for visiting or transiting the Schengen area. The system can perform biometric matching (mainly fingerprints) for identification and verification purposes.</description>
+    </item>
+    <item>
+      <title>One-day trip to Sha Tau Kok Port Closed Area</title>
+      <link>https://blog.sparktour.me/en/posts/2024/02/05/2024-sha-tau-kok-visit/</link>
+      <pubDate>Mon, 05 Feb 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2024/02/05/2024-sha-tau-kok-visit/</guid>
+      <description>The second phase of the Sha Tau Kok Open Plan will commence on January 1, 2024. In the first stage, up to 1,000 visitors per day will be allowed to visit the entire Sha Tau Kok area except Chung Ying Street after applying for a Closed Area Permit online. This will give more people the opportunity to learn about the history, culture, and natural landscape of Sha Tau Kok and nearby outlying islands, and promote cultural and ecological tourism.</description>
+    </item>
+    <item>
+      <title>Add optional passkey/webauth/OTP login to Keycloak</title>
+      <link>https://blog.sparktour.me/en/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</link>
+      <pubDate>Wed, 24 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</guid>
+      <description>This article describes the process of configuring Keycloak for passwordless login using passkeys, webauthn, and OTP (One-Time Password). Some configurations in this article may require Keycloak 23 or higher to function properly.
+Configuring the Authentication Section In Keycloak&amp;rsquo;s Authentication - Flow menu, duplicate the browser flow. We&amp;rsquo;ll name the copy browser with optional webauth and otp.
+Duplicate Browser Flow In the new flow, delete browser password form and all steps/flows below it:</description>
+    </item>
+    <item>
+      <title>Mount NFS via RDMA on Mellanox Card</title>
+      <link>https://blog.sparktour.me/en/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</link>
+      <pubDate>Thu, 24 Aug 2023 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</guid>
+      <description>Recently, our laboratory acquired eight NVMe SSDs, which we connected to a server via PCIe adapter cards and configured into a RAID using ZFS. To enable rapid access to the storage pool from other servers in the lab, I picked up two ConnectX-4 CX4121A 10GbE network cards from a second-hand platform to link two servers, and set up NFS over RDMA.
+The seller on the second-hand platform did not include optical modules, so I randomly purchased two 10G Huawei modules, costing about 15-20 RMB each.</description>
+    </item>
+    <item>
+      <title>Configure esim.me SIM Card with PC/SC Smart Card Reader</title>
+      <link>https://blog.sparktour.me/en/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</guid>
+      <description>I recently obtained several &amp;ldquo;removable eSIM cards&amp;rdquo; from esim.me from a friend in a group chat. In short, these eSIM cards are manufactured in the form of ordinary SIM cards, so they can be directly inserted into any mobile phone that supports physical SIM cards, and profiles can be added to the eSIM cards through the Android app provided by esim.me. Although esim.me differentiates the prices of these eSIM cards</description>
+    </item>
+    <item>
+      <title>Graduation Trip Under the &#39;Dynamic Zero-COVID Policy&#39; - Qinghai-Gansu Grand Tour</title>
+      <link>https://blog.sparktour.me/en/posts/2022/07/18/qinghai-gansu-trip-2022/</link>
+      <pubDate>Mon, 18 Jul 2022 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2022/07/18/qinghai-gansu-trip-2022/</guid>
+      <description>Graduation Trip Under the &amp;lsquo;Dynamic Zero-COVID Policy&amp;rsquo; - Qinghai-Gansu Grand Tour The initial idea for my graduation trip came about at the end of 2021. Back then, the plan was to visit Shanghai and the surrounding areas of Zhejiang. However, with the lockdown in Shanghai and the tightening of restrictions in various regions, by April-May 2022, most cities were requiring individuals to quarantine in place if there was even a single confirmed COVID-19 case in their district.</description>
+    </item>
+    <item>
+      <title>Visit to Ma Tso Lung Again in 2021</title>
+      <link>https://blog.sparktour.me/en/posts/2021/09/22/visit-ma-tso-lung-again-2021/</link>
+      <pubDate>Wed, 22 Sep 2021 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2021/09/22/visit-ma-tso-lung-again-2021/</guid>
+      <description>In order to activate cross-border roaming service for my classmate&amp;rsquo;s phone, I recently took the time to visit Ma Tso Lung again (the last time was two years ago). Due to the impact of the border closure, compared to August 2019, the number of people going to Ma Tso Lung has significantly increased. The way to get to Ma Tso Lung was slightly different from the last time. This time,</description>
+    </item>
+  </channel>
+</rss>

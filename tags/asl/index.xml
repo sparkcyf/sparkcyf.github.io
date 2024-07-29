@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ASL on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/asl/</link>
+    <description>Recent content in ASL on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/asl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>持有大陆无线电执照香港申請業餘電台牌照和操作授權證明</title>
+      <link>https://blog.sparktour.me/posts/2021/09/03/apply-asl-and-ato-in-hk/</link>
+      <pubDate>Fri, 03 Sep 2021 09:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/09/03/apply-asl-and-ato-in-hk/</guid>
+      <description>持有大陆无线电执照香港申請業餘電台牌照／操作授權證明 根据香港通訊事務管理局的规定，持有「中華人民共和國工業和信息化部發出的業餘無線電台執照和</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Esim.me on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/esim.me/</link>
+    <description>Recent content in Esim.me on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Apr 2024 10:09:26 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/esim.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure esim.me SIM Card with PC/SC Smart Card Reader</title>
+      <link>https://blog.sparktour.me/en/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</guid>
+      <description>I recently obtained several &amp;ldquo;removable eSIM cards&amp;rdquo; from esim.me from a friend in a group chat. In short, these eSIM cards are manufactured in the form of ordinary SIM cards, so they can be directly inserted into any mobile phone that supports physical SIM cards, and profiles can be added to the eSIM cards through the Android app provided by esim.me. Although esim.me differentiates the prices of these eSIM cards</description>
+    </item>
+  </channel>
+</rss>

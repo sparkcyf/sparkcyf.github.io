@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Volte on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/volte/</link>
+    <description>Recent content in Volte on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/volte/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用EC20模块配合asterisk及freepbx实现短信转发和网络电话</title>
+      <link>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</link>
+      <pubDate>Sat, 08 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</guid>
+      <description>由于内地各种互联网服务与手机强绑定的前提下，每个人手上的手机号码变得越来越多。在互联网上，早已有包括telegram-sms，SMS-for</description>
+    </item>
+  </channel>
+</rss>

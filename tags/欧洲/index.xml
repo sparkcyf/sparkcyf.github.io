@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>欧洲 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/%E6%AC%A7%E6%B4%B2/</link>
+    <description>Recent content in 欧洲 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 27 May 2024 11:15:03 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/%E6%AC%A7%E6%B4%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>导出申根签证VIS（Visa Information System）的个人数据</title>
+      <link>https://blog.sparktour.me/posts/2024/04/10/export-schengen-vis-info/</link>
+      <pubDate>Wed, 10 Apr 2024 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/04/10/export-schengen-vis-info/</guid>
+      <description>相信许多人在申请申根签证时，都有听说过Visa Information System (VIS)。VIS允许申根国家交换签证数据。它由中央 IT 系统和将该中央系统连接到国家系统的通</description>
+    </item>
+    <item>
+      <title>进入欧盟口岸区——2023欧洲之旅</title>
+      <link>https://blog.sparktour.me/posts/2023/08/01/2023-summer-europe-travel-notes/</link>
+      <pubDate>Tue, 01 Aug 2023 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/08/01/2023-summer-europe-travel-notes/</guid>
+      <description>这篇博客分享笔者于2023年暑假的欧洲旅行，笔者在本次时长两周的旅行中去到了法国、荷兰、瑞典、爱沙尼亚和芬兰。 路线与景点图 行前准备及杂项 签证</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tech on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/categories/tech/</link>
+    <description>Recent content in Tech on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 19 Apr 2024 09:59:44 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PT924G光猫配置VLAN单线复用</title>
+      <link>https://blog.sparktour.me/posts/2024/02/02/pt924g-modem-vlan/</link>
+      <pubDate>Fri, 02 Feb 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/02/02/pt924g-modem-vlan/</guid>
+      <description>在本文中，我们将介绍如何在PT924G光猫上配置VLAN单线复用，以便在单根光纤上同时传输上网，IPTV和TR069等业务。 获取超级管理员密</description>
+    </item>
+    <item>
+      <title>为keycloak添加可选的passkey/webauth/OTP登陆</title>
+      <link>https://blog.sparktour.me/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</link>
+      <pubDate>Wed, 24 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</guid>
+      <description>本文描述了为keycloak配置passkey，webauth，OTP等无密码登陆的流程。本文中的部分配置可能需要Keycloak 23或者更</description>
+    </item>
+    <item>
+      <title>Host the MinIO Server API on a subpath and Configure Multi Domain</title>
+      <link>https://blog.sparktour.me/posts/2024/01/13/host-minio-s3-under-subpath-and-multi-domain/</link>
+      <pubDate>Sat, 13 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/01/13/host-minio-s3-under-subpath-and-multi-domain/</guid>
+      <description>尽管Minio在文档中明确说明了minio的S3 API并不支持host在subpath下。但如果真的有需求，我们也可以通过修改nginx的反</description>
+    </item>
+    <item>
+      <title>USTC Hackergame 2023 Writeup</title>
+      <link>https://blog.sparktour.me/posts/2023/11/04/ustc-hackergame-2023-writeup/</link>
+      <pubDate>Sat, 04 Nov 2023 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/11/04/ustc-hackergame-2023-writeup/</guid>
+      <description>这是本人第四次参加USTC的hackergame了233，有赖今年许多题目正好和运维和环境学知识相关和ChatGPT的横空出世，本人的排名总</description>
+    </item>
+    <item>
+      <title>使用 Mikrotik RouterOS 和 Openwrt 在 ISP 获得的 IPv6 Prefix 上配置二级 PD </title>
+      <link>https://blog.sparktour.me/posts/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/</link>
+      <pubDate>Wed, 18 Oct 2023 09:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/</guid>
+      <description>在中国大陆，电信运营商常为使用PPPoE拨号的用户分配/60的IPv6 prefix delegation。在本文中，笔者尝试了使用Mikrotik Rou</description>
+    </item>
+    <item>
+      <title>使用Mellanox网卡基于RDMA挂载NFS</title>
+      <link>https://blog.sparktour.me/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</link>
+      <pubDate>Thu, 24 Aug 2023 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</guid>
+      <description>笔者的实验室于近期购置了8块nvme硬盘，通过pcie转接卡转接至一台服务器，并用ZFS组了RAID。为了能让实验室的其他服务器也能快速访问</description>
+    </item>
+    <item>
+      <title>通过PC/SC智能卡读卡器配置esim.me的SIM卡</title>
+      <link>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</guid>
+      <description>最近从群友处得到了数张esim.me的「可拆卸eSIM卡」。简而言之，这种esim卡被制造成普通sim卡的形态，因此能够直接插入任意支持物理</description>
+    </item>
+    <item>
+      <title>配置 Linksys SPA3102 并接入固定电话网</title>
+      <link>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</link>
+      <pubDate>Sat, 15 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</guid>
+      <description>在本篇文章中，笔者尝试使用Linksys (CISCO / SIPURA) SPA3102连接固话网络并接入freepbx，将固定电话的信号转换为了VoIP（SIP）协议</description>
+    </item>
+    <item>
+      <title>使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP</title>
+      <link>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</link>
+      <pubDate>Fri, 14 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</guid>
+      <description>在本篇文章中，笔者尝试使用TDM410p FXO卡和freepbx，将固定电话的信号转换为了VoIP（SIP）协议，并使用SIP话机接打电话。</description>
+    </item>
+    <item>
+      <title>使用EC20模块配合asterisk及freepbx实现短信转发和网络电话</title>
+      <link>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</link>
+      <pubDate>Sat, 08 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</guid>
+      <description>由于内地各种互联网服务与手机强绑定的前提下，每个人手上的手机号码变得越来越多。在互联网上，早已有包括telegram-sms，SMS-for</description>
+    </item>
+    <item>
+      <title>Openwrt 和 MikroTik RouterOS 路由器通过 IPIP/EOIP 进行二层组网</title>
+      <link>https://blog.sparktour.me/posts/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/</link>
+      <pubDate>Sun, 18 Sep 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/</guid>
+      <description>一直以来，本地路由器远程连接实验室的网络连接都是通过办公室ikuai软路由的L2TP连接实现的，但L2TP作为一个有状态协议，在遇到连接中断</description>
+    </item>
+    <item>
+      <title>Openwrt 和通用Linux设备通过 IPIP/GRETAP 进行二层组网</title>
+      <link>https://blog.sparktour.me/posts/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/</link>
+      <pubDate>Sun, 18 Sep 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/</guid>
+      <description>在前一篇文章中，笔者尝试了用Openwrt和RouterOS配合IPIP和EoIP隧道进行二层组网。但由于Openwrt的EoIP包是一个用</description>
+    </item>
+    <item>
+      <title>为自部署Overleaf/Sharelatex实例添加LDAP和OAuth2/OpenID Connect登录支持</title>
+      <link>https://blog.sparktour.me/posts/2022/06/11/self-host-overleaf-with-ldap-and-oauth2-support/</link>
+      <pubDate>Sat, 11 Jun 2022 09:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/06/11/self-host-overleaf-with-ldap-and-oauth2-support/</guid>
+      <description>效果图 既去年给自部署Overleaf实例添加了邮箱注册功能之后，最近在TUNA的同学的帮助下，笔者也为南科大的Overleaf实例添加了LD</description>
+    </item>
+    <item>
+      <title>无需其他Openwrt路由器，使用任意带无线网的Linux机器解锁红米AX6路由器的SSH</title>
+      <link>https://blog.sparktour.me/posts/2022/03/18/enable-redmi-ssh-without-openwrt/</link>
+      <pubDate>Fri, 18 Mar 2022 14:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/03/18/enable-redmi-ssh-without-openwrt/</guid>
+      <description>最近小米有品上再次开始售卖起了红米AX6，由于这是小米出品的，能刷Openwrt的机器中较为便宜的一款，便购买了一台。根据网上的一些帖子，解</description>
+    </item>
+    <item>
+      <title>解决充值Skype时跳转skype.gmw.cn的问题</title>
+      <link>https://blog.sparktour.me/posts/2022/02/01/untag-skype-account-from-gmw-cn/</link>
+      <pubDate>Tue, 01 Feb 2022 20:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/02/01/untag-skype-account-from-gmw-cn/</guid>
+      <description>Skype的充值服务在中国大陆目前被一个名为「光明网」的实体代理（似乎是一些合规性问题，可以见下方知乎中的回答）。因此，所有被Skype的系</description>
+    </item>
+    <item>
+      <title>在 Vuepress 2 中使用 Google Adsense 并配置自适应加载</title>
+      <link>https://blog.sparktour.me/posts/2021/09/20/google-adsense-vuepress-2-wxapp/</link>
+      <pubDate>Mon, 20 Sep 2021 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/09/20/google-adsense-vuepress-2-wxapp/</guid>
+      <description>在 Vuepress 2 中使用 Google Adsense 并配置自适应加载 迫于服务器续费的压力，最近抽时间和同学一起在社团运营的vuepress中配置了Google Adsense广告</description>
+    </item>
+    <item>
+      <title>腾讯实习小结：你走过的路都将会在未来发挥意想不到的作用</title>
+      <link>https://blog.sparktour.me/posts/2021/08/10/tencent-intern-conclusion/</link>
+      <pubDate>Tue, 10 Aug 2021 21:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/08/10/tencent-intern-conclusion/</guid>
+      <description>腾讯实习小结：你走过的路都将会在未来发挥意想不到的作用 时间过得很快，本周已经是实习的第七周，实习的最后一周了。腾讯的实习让我认识到了许多不曾</description>
+    </item>
+    <item>
+      <title>自建OpenStreetmap地图瓦片服务</title>
+      <link>https://blog.sparktour.me/posts/2021/08/03/self-host-openstreetmap-tiles-server/</link>
+      <pubDate>Tue, 03 Aug 2021 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/08/03/self-host-openstreetmap-tiles-server/</guid>
+      <description>自建OpenStreetsmap地图瓦片服务 地图显示效果 迫于openstreetsmap官方的瓦片服务器（tile server）速度太慢，而</description>
+    </item>
+    <item>
+      <title>腾讯实习初体验</title>
+      <link>https://blog.sparktour.me/posts/2021/07/04/tencent-intern-first-impression/</link>
+      <pubDate>Sun, 04 Jul 2021 13:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/07/04/tencent-intern-first-impression/</guid>
+      <description>腾讯实习初体验 说起来这个实习的来历还十分坎坷。在三月份的实习申请季，学院为我们推荐了华为海思的实习，可海思的实习笔试占比的绝大部分均是和ve</description>
+    </item>
+    <item>
+      <title>为校园生成街景</title>
+      <link>https://blog.sparktour.me/posts/2021/06/16/campus-streetview/</link>
+      <pubDate>Wed, 16 Jun 2021 13:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/06/16/campus-streetview/</guid>
+      <description>为校园生成街景 给学校做一个街景是大一入学以来一直以来的一个愿望了。在大二的时候，我们已经为学校拍摄了数张航拍全景，本想打算以此为基础为学校做</description>
+    </item>
+    <item>
+      <title>处理华为核心防火墙导致的TLS连接重置问题</title>
+      <link>https://blog.sparktour.me/posts/2021/04/25/huawei-usg9500-firewall-tls-reset-issue/</link>
+      <pubDate>Sun, 25 Apr 2021 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/04/25/huawei-usg9500-firewall-tls-reset-issue/</guid>
+      <description>本文是2021年4月时，南科大镜像站遇到的TLS连接重置问题的调试存档。一句话概括情况：在校外向镜像站公网v4地址(116.7.234.22</description>
+    </item>
+    <item>
+      <title>实践自部署Overleaf</title>
+      <link>https://blog.sparktour.me/posts/2021/04/02/self-host-overleaf/</link>
+      <pubDate>Fri, 02 Apr 2021 09:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/04/02/self-host-overleaf/</guid>
+      <description>image.png 迫于大学对$LaTeX$排版软件的需求，自己帮忙为所在的大学部署了Overleaf的社区版本，并配置了完整的宏包支持，Shell Escape （用于代</description>
+    </item>
+    <item>
+      <title>安装MRBS并配置CAS</title>
+      <link>https://blog.sparktour.me/posts/2021/01/27/install-mrbs-with-nginx-and-cas-authentication/</link>
+      <pubDate>Wed, 27 Jan 2021 09:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/01/27/install-mrbs-with-nginx-and-cas-authentication/</guid>
+      <description>最近帮助院系使用MRBS（Meeting Room Booking System）搭建了一个简单的会议室预约系统，并配置了Apereo CAS登陆。 安装MRBS 前半部</description>
+    </item>
+    <item>
+      <title>在 Ubuntu/Debian 配置 Smokeping 并使用 Caddy 作为服务器</title>
+      <link>https://blog.sparktour.me/posts/2020/03/04/smokeping-with-caddy/</link>
+      <pubDate>Wed, 04 Mar 2020 20:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2020/03/04/smokeping-with-caddy/</guid>
+      <description>在 debian/ubuntu 上安装 Smokeping 时, apt 只会给一个用于 apache2 的配置. 并不能直接用于其他的 Web 服务器, 但迫于VPS上的用的 Web 服务器是 Caddy 因此就参考网上的资料整理出了给 Caddy 用的</description>
+    </item>
+    <item>
+      <title>大学生活指南-如何选择适用于寝室的路由器与合适的网络配置</title>
+      <link>https://blog.sparktour.me/posts/2019/07/19/e5-a4-a7-e5-ad-a6-e7-94-9f-e6-b4-bb-e6-8c-87-e5-8d-97-e5-a6-82-e4-bd-95-e9-80-89-e6-8b-a9-e9-80-82-e7-94-a8-e4-ba-8e-e5-af-9d-e5-ae-a4-e7-9a-84-e8-b7-af-e7-94-b1-e5-99-a8-e4-b8-8e-e5-90-88-e9-80-82/</link>
+      <pubDate>Fri, 19 Jul 2019 23:31:25 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/07/19/e5-a4-a7-e5-ad-a6-e7-94-9f-e6-b4-bb-e6-8c-87-e5-8d-97-e5-a6-82-e4-bd-95-e9-80-89-e6-8b-a9-e9-80-82-e7-94-a8-e4-ba-8e-e5-af-9d-e5-ae-a4-e7-9a-84-e8-b7-af-e7-94-b1-e5-99-a8-e4-b8-8e-e5-90-88-e9-80-82/</guid>
+      <description>进入了大学，每个同学都想要并需要一个高速，稳定的网络环境，因此选择路由器也就显得十分重要了。本文将会基于笔者之前的一些体验和网络上的文章和数</description>
+    </item>
+    <item>
+      <title>Enable Pixel 1 &#39;s lte in CT/CMCC/CU &amp; Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信/联通/移动lte</title>
+      <link>https://blog.sparktour.me/posts/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/</link>
+      <pubDate>Sat, 11 May 2019 00:59:04 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/</guid>
+      <description>自从pixel1开始，Google就不再把大陆运营商的lte配置文件内置在手机内了，在使用的过程中就会遇到不少麻烦：联通还能基本正常使用（但</description>
+    </item>
+    <item>
+      <title>Home Assistant: Using the PC/Apple HomeKit to Control Mi Home Accessories</title>
+      <link>https://blog.sparktour.me/posts/2019/04/26/home-assistant-using-the-pc-apple-homekit-to-control-mi-home-accessories/</link>
+      <pubDate>Fri, 26 Apr 2019 02:43:34 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/04/26/home-assistant-using-the-pc-apple-homekit-to-control-mi-home-accessories/</guid>
+      <description>使用PC/Apple HomeKit控制米家等智能家居 在大一上时购入了一台二手树莓派3b，但一般也只用来挂一下pt，当个下载机和简易nas使用</description>
+    </item>
+    <item>
+      <title>Using Ubuntu to Make an Old PC Great Again</title>
+      <link>https://blog.sparktour.me/posts/2019/04/21/using-ubuntu-to-make-an-old-pc-great-again/</link>
+      <pubDate>Sun, 21 Apr 2019 22:50:18 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/04/21/using-ubuntu-to-make-an-old-pc-great-again/</guid>
+      <description>to be written</description>
+    </item>
+  </channel>
+</rss>
