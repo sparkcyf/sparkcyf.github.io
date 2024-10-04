@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bonito on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/bonito/</link>
+    <description>Recent content in Bonito on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 04 Oct 2024 19:31:51 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/bonito/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Look at the Nanopore Basecaller: Bonito</title>
+      <link>https://blog.sparktour.me/posts/2024/09/25/a-look-at-nanopore-basecaller-bonito/</link>
+      <pubDate>Wed, 25 Sep 2024 21:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/09/25/a-look-at-nanopore-basecaller-bonito/</guid>
+      <description>Bonito（中文直译为鲣鱼）是Oxford Nanopore Technology开发的一款basecaller。在本文中，笔者尽量以通俗易懂的语言，介绍bonito的一些数据流和数据格式等二次开发bonito（甚至是其他的纳米孔测序basecaller）需要了解的一些知识。</description>
+    </item>
+  </channel>
+</rss>
