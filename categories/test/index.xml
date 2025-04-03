@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/categories/test/</link>
+    <description>Recent content in Test on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 18 Apr 2024 16:54:14 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World!</title>
+      <link>https://blog.sparktour.me/posts/2019/04/18/hello-world-1/</link>
+      <pubDate>Thu, 18 Apr 2019 11:24:27 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/04/18/hello-world-1/</guid>
+      <description>&lt;p&gt;Officially Say Hello to The World&lt;/p&gt;
+&lt;p&gt;我的第一个自建的blog总算搭好了（虽然说只是一个基于Wordpress的玩意）&lt;/p&gt;
+&lt;p&gt;现在它运行在&lt;a href=&#34;https://cloud.google.com/&#34;&gt;GCE&lt;/a&gt;上，对于电信用户来说，体验应该还不错，不过联通和移动用户可能需要忍受它的高延迟了。&lt;/p&gt;
+&lt;p&gt;现在我也不知道在这里写些什么好😂，也许是分享一下自己的一些发现，或是一些别的东西？希望我能用动力去时常更新它，以能给我的留下一些记忆吧。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>a little test about image</title>
+      <link>https://blog.sparktour.me/posts/2019/04/17/a-little-test-about-image/</link>
+      <pubDate>Wed, 17 Apr 2019 20:36:45 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/04/17/a-little-test-about-image/</guid>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Shenzhen_Bay_Bridge_To_HK_on_Shenzhen_Side.jpg/1280px-Shenzhen_Bay_Bridge_To_HK_on_Shenzhen_Side.jpg&#34; alt=&#34;&#34;  /&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Shenzhen Bay Bridge To HK on Shenzhen Side on  26 July 2018&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
