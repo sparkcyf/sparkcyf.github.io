@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>USA on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/usa/</link>
+    <description>Recent content in USA on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Jan 2025 10:45:22 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/usa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USA Travelogue</title>
+      <link>https://blog.sparktour.me/en/posts/2024/10/03/2024-summer-usa-travel-notes/</link>
+      <pubDate>Thu, 03 Oct 2024 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2024/10/03/2024-summer-usa-travel-notes/</guid>
+      <description>&lt;p&gt;This blog post shares my travel experience in the United States during the summer of 2024. In this two-week trip, I visited cities on the West Coast, including San Francisco and Los Angeles, and on the East Coast, including New York and Washington, D.C.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;route-and-attractions-map&#34;&gt;Route and Attractions Map&lt;/h2&gt;
+&lt;p&gt;My general itinerary involved driving from San Francisco to Los Angeles, then flying to New York, taking a train to Washington, D.C., and finally flying back to San Francisco.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
