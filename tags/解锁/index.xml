@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>解锁 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/%E8%A7%A3%E9%94%81/</link>
+    <description>Recent content in 解锁 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/%E8%A7%A3%E9%94%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>无需其他Openwrt路由器，使用任意带无线网的Linux机器解锁红米AX6路由器的SSH</title>
+      <link>https://blog.sparktour.me/posts/2022/03/18/enable-redmi-ssh-without-openwrt/</link>
+      <pubDate>Fri, 18 Mar 2022 14:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/03/18/enable-redmi-ssh-without-openwrt/</guid>
+      <description>&lt;p&gt;最近小米有品上再次开始售卖起了&lt;a href=&#34;https://www.xiaomiyoupin.com/detail?gid=134220&#34;&gt;红米AX6&lt;/a&gt;，由于这是小米出品的，能刷Openwrt的机器中较为便宜的一款，便购买了一台。根据网上的一些帖子，解锁AX6的SSH需要额外找一台运行Openwrt的路由器来跑脚本。不过经过研究，理论上&lt;strong&gt;任何能够开Wi-Fi热点（AP），且能够配置静态IP的设备&lt;/strong&gt;都能用于路由器的解锁。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一台能够开Wi-Fi热点（AP），且能够配置静态IP的设备。（笔者使用了&lt;strong&gt;安装Ubuntu的树莓派开热点&lt;/strong&gt;，理论上Linux虚拟机+能够开热点的无线网卡或者Windows电脑直接开热点都能达到类似的效果）。&lt;/li&gt;
+&lt;li&gt;设备上需要能运行web服务器（笔者用的nginx），或者能运行python（能监听本地端口即可）&lt;/li&gt;
+&lt;li&gt;未解锁的红米AX6路由器。&lt;/li&gt;
+&lt;li&gt;（可选）随便找台路由器，让操作的电脑，AX6和树莓派处在同一内网内方便ssh操作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://assets.sparktour.me/img/blog/2022/enable-redmi-ssh-without-openwrt/topology.svg&#34; alt=&#34;接线拓扑图&#34;  /&gt;
+    &lt;figcaption&gt;接线拓扑图&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

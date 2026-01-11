@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tech on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/tech/</link>
+    <description>Recent content in Tech on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 15 Nov 2024 22:52:25 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USTC Hackergame 2024 Writeup</title>
+      <link>https://blog.sparktour.me/posts/2024/11/14/ustc-hackergame-2024-writeup/</link>
+      <pubDate>Thu, 14 Nov 2024 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/11/14/ustc-hackergame-2024-writeup/</guid>
+      <description>&lt;p&gt;这是本人第五次参加USTC的hackergame了，本次的排名相比上次略有进步，进到了50名内。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;paolugpt&#34;&gt;PaoluGPT&lt;/h2&gt;
+&lt;p&gt;观察代码注意到了可能可以进行SQL注入：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PT924G光猫配置VLAN单线复用</title>
+      <link>https://blog.sparktour.me/posts/2024/02/02/pt924g-modem-vlan/</link>
+      <pubDate>Fri, 02 Feb 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/02/02/pt924g-modem-vlan/</guid>
+      <description>&lt;p&gt;在本文中，我们将介绍如何在PT924G光猫上配置VLAN单线复用，以便在单根光纤上同时传输上网，IPTV和TR069等业务。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;获取超级管理员密码&#34;&gt;获取超级管理员密码&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Manufacturer:youhua
+ProductClass:PT924G
+HWVersion:   V4.0.00
+SWVersion:   V10.00.924GD02
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;参考&lt;a href=&#34;https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;amp;tid=8251873&#34;&gt;恩山&lt;/a&gt;的帖子：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>为keycloak添加可选的passkey/webauth/OTP登陆</title>
+      <link>https://blog.sparktour.me/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</link>
+      <pubDate>Wed, 24 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</guid>
+      <description>&lt;p&gt;本文描述了为keycloak配置&lt;a href=&#34;https://fidoalliance.org/passkeys/&#34;&gt;passkey&lt;/a&gt;，webauth，&lt;a href=&#34;https://en.wikipedia.org/wiki/One-time_password&#34;&gt;OTP&lt;/a&gt;等无密码登陆的流程。本文中的部分配置可能需要&lt;a href=&#34;https://www.keycloak.org/docs/latest/release_notes/index.html#passkeys-support&#34;&gt;Keycloak 23&lt;/a&gt;或者更高的版本才能正常运行。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;配置authentication部分&#34;&gt;配置Authentication部分&lt;/h2&gt;
+&lt;p&gt;在keycloak的&lt;code&gt;Authentication - Flow&lt;/code&gt;菜单中，复制一份browser flow，笔者把副本取名为了&lt;code&gt;browser with optional webauth and otp&lt;/code&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Host the MinIO Server API on a subpath and Configure Multi Domain</title>
+      <link>https://blog.sparktour.me/posts/2024/01/13/host-minio-s3-under-subpath-and-multi-domain/</link>
+      <pubDate>Sat, 13 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/01/13/host-minio-s3-under-subpath-and-multi-domain/</guid>
+      <description>&lt;p&gt;尽管Minio在文档中明确说明了minio的S3 API&lt;a href=&#34;https://min.io/docs/minio/linux/integrations/setup-nginx-proxy-with-minio.html#:~:text=The%20S3%20API%20signature%20calculation%20algorithm%20does%20not%20support%20proxy%20schemes%20where%20you%20host%20the%20MinIO%20Server%20API%20on%20a%20subpath%2C%20such%20as%20minio.example.net/s3/.&#34;&gt;并不支持host在subpath下&lt;/a&gt;。但如果真的有需求，我们也可以通过修改nginx的反向代理配置来实现这一点。此方法唯一存在的问题是，bucket的名字需要拥有某个共同的前缀。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;minio配置&#34;&gt;Minio配置&lt;/h2&gt;
+&lt;p&gt;minio的docker-compose配置如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;3.6&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;services&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;minio&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;quay.io/minio/minio:latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;container_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;minio-ssd-backend&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;restart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;always&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ports&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;39000:9000&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;39090:9090&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;volumes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;/your-local-data/minio/data:/data&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;environment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;MINIO_ROOT_USER&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;admin&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;MINIO_ROOT_PASSWORD&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;change-me&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;MINIO_SERVER_URL&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://maindomain.example.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;MINIO_BROWSER_REDIRECT_URL&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://console.example.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;command&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;server /data --console-address=:9090&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;MINIO_SERVER_URL&lt;/code&gt;：minio会用这个url来计算签名。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MINIO_BROWSER_REDIRECT_URL&lt;/code&gt;：console会host在这个url下，如果熟悉mc客户端的话，不需要console也可以进行绝大部分的配置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;nginx配置&#34;&gt;Nginx配置&lt;/h2&gt;
+&lt;p&gt;nginx配置可以参考&lt;a href=&#34;https://min.io/docs/minio/linux/integrations/setup-nginx-proxy-with-minio.html&#34;&gt;minio的文档&lt;/a&gt;。由于我们的&lt;code&gt;maindomain.example.com&lt;/code&gt;中可能还有其他的服务，所以我们只需要把带bucket前缀（假设这里的前缀是&lt;code&gt;bucket-prefix&lt;/code&gt;）的请求和minio控制的相关请求反向代理给minio即可。具体来说，需要在相应域名的配置中添加以下的两端配置&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>USTC Hackergame 2023 Writeup</title>
+      <link>https://blog.sparktour.me/posts/2023/11/04/ustc-hackergame-2023-writeup/</link>
+      <pubDate>Sat, 04 Nov 2023 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/11/04/ustc-hackergame-2023-writeup/</guid>
+      <description>&lt;p&gt;这是本人第四次参加USTC的hackergame了233，有赖今年许多题目正好和运维和&lt;del&gt;环境学&lt;/del&gt;知识相关和&lt;del&gt;ChatGPT的横空出世&lt;/del&gt;，本人的排名总算第一次进了前100。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用 Mikrotik RouterOS 和 Openwrt 在 ISP 获得的 IPv6 Prefix 上配置二级 PD </title>
+      <link>https://blog.sparktour.me/posts/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/</link>
+      <pubDate>Wed, 18 Oct 2023 09:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/</guid>
+      <description>&lt;p&gt;在中国大陆，电信运营商常为使用PPPoE拨号的用户分配&lt;code&gt;/60&lt;/code&gt;的IPv6 prefix delegation。在本文中，笔者尝试了使用Mikrotik RouterOS获取了电信运营商分配的IPv6 PD，并为下级路由器和PPP接口上的设备继续分发了&lt;code&gt;/64&lt;/code&gt;的IPv6 PD。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用Mellanox网卡基于RDMA挂载NFS</title>
+      <link>https://blog.sparktour.me/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</link>
+      <pubDate>Thu, 24 Aug 2023 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</guid>
+      <description>&lt;p&gt;笔者的实验室于近期购置了8块nvme硬盘，通过pcie转接卡转接至一台服务器，并用ZFS组了RAID。为了能让实验室的其他服务器也能快速访问主机上的存储池，笔者去闲鱼套了两块ConnectX-4 CX4121A 10Gbe 的万兆网卡用来连接两台服务器，并配置了NFS Over RDMA。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>通过PC/SC智能卡读卡器配置esim.me的SIM卡</title>
+      <link>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</guid>
+      <description>&lt;p&gt;最近从群友处得到了数张&lt;a href=&#34;https://esim.me&#34;&gt;esim.me&lt;/a&gt;的「可拆卸eSIM卡」。简而言之，这种esim卡被制造成普通sim卡的形态，因此能够直接插入任意支持物理sim卡的手机，并通过esim.me提供的android app为esim卡添加profile。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;尽管esim.me在销售这些esim卡时，根据每个esim卡能够加入的profile数量区分了不同的价格档位。后续在网上查阅博客文章时，有人也提到这些不同价格的esim卡的硬件是完全一致的，esim.me只是通过手机配置app对不同价位的卡进行了软件上的限制。并且如果将这些esim卡插入支持esim的LTE模块，即可直接&lt;a href=&#34;https://support.microsoft.com/en-us/windows/use-an-esim-to-get-a-cellular-data-connection-on-your-windows-pc-0e255714-f8be-b9ef-9e84-f75b05ed98a3&#34;&gt;通过Windows的esim管理界面添加和删除profile&lt;/a&gt;。不过目前支持esim的LTE模块主要为移远的&lt;a href=&#34;https://www.quectel.com/product/5g-rm50xq-series&#34;&gt;RM-50xQ系列&lt;/a&gt;（二手价格550元）和戴尔的dw5821e（二手价格300元）/dw5829e模块。为了配置esim卡而专门采购这些LTE模块显然有些得不偿失。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>配置 Linksys SPA3102 并接入固定电话网</title>
+      <link>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</link>
+      <pubDate>Sat, 15 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</guid>
+      <description>&lt;p&gt;在本篇文章中，笔者尝试使用Linksys (CISCO / SIPURA) SPA3102连接固话网络并接入freepbx，将固定电话的信号转换为了VoIP（SIP）协议。本文的效果与&lt;a href=&#34;https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/&#34;&gt;《使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP》&lt;/a&gt;一文中的类似。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP</title>
+      <link>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</link>
+      <pubDate>Fri, 14 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</guid>
+      <description>&lt;p&gt;在本篇文章中，笔者尝试使用TDM410p FXO卡和freepbx，将固定电话的信号转换为了VoIP（SIP）协议，并使用SIP话机接打电话。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;所需硬件&#34;&gt;所需硬件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;FXO卡一块，比较便宜的解决方案是TDM410p，红色的是FXO卡（接墙上的电话线），绿色的是FXS卡（接电话机终端），我们所需的是&lt;strong&gt;FXO卡&lt;/strong&gt;，购买前需要注意有些卡是PCI接口的，可能需要另外买PCI转PCIe的转接卡。淘宝上的单口FXO卡大约200元一块。笔者买了某淘宝店的单口FXO组合板（一张PCI接口的单口FXO卡，和一张PCI转PCIe转接卡组合在了一起）&lt;/li&gt;
+&lt;li&gt;主机一台，由于TDM410p的硬件规格太老，似乎&lt;a href=&#34;https://forum.proxmox.com/threads/pci-passthrough-problems.20728/&#34;&gt;无法在PVE上进行pcie直通&lt;/a&gt;，因此笔者用了一台旧电脑直接安装了&lt;a href=&#34;https://www.freepbx.org/downloads/&#34;&gt;FreePBX发行版&lt;/a&gt;。（根据网上的讨论，fxo及freepbx对机器的性能要求很低，甚至十多年前的酷睿2+2G内存都能正常运行）&lt;/li&gt;
+&lt;li&gt;*（可选）*若干台IP电话，可在闲鱼上以「思科/Cisco IP电话」之类的关键词搜索。大概能搜到60-100元一台的&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7900-series/index.html&#34;&gt;CP7900&lt;/a&gt;或&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8900-series/index.html&#34;&gt;CP8900&lt;/a&gt;系列的电话机，价格甚至比某些接RJ11的传统电话机还便宜。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
+&lt;h3 id=&#34;fxo卡&#34;&gt;FXO卡&lt;/h3&gt;
+&lt;p&gt;FXO卡的硬件是通过&lt;a href=&#34;https://wiki.asterisk.org/wiki/display/DAHDI/DAHDI&#34;&gt;dahdi&lt;/a&gt;进行驱动的，freepbx已经自带了这些驱动，理论上插上fxo卡之后，dahdi就能识别出来了。同时，我们也可以通过&lt;code&gt;dahdi_scan&lt;/code&gt;来验证一下：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用EC20模块配合asterisk及freepbx实现短信转发和网络电话</title>
+      <link>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</link>
+      <pubDate>Sat, 08 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</guid>
+      <description>&lt;p&gt;由于内地各种互联网服务与手机强绑定的前提下，每个人手上的手机号码变得越来越多。在互联网上，早已有包括&lt;a href=&#34;https://github.com/telegram-sms/telegram-sms-china&#34;&gt;telegram-sms&lt;/a&gt;，&lt;a href=&#34;https://github.com/pppscn/SmsForwarder&#34;&gt;SMS-forwarder&lt;/a&gt;等不同的应用被用来解决不想随身带着某张手机卡，却还需要拿他接收发送短信的场景。不过美中不足的是，由于这些应用均需要安装在手机上，这些短信转发应用均存在因国产android系统严格的后台限制被休眠导致无法转发短信的情况。同时，将带电池的旧手机长期插电也有一些安全隐患（电池鼓包等）。最重要的是，这些短信转发转发软件无法转移呼入和呼出的电话。为了解决上述的这些问题，在本文中，笔者基于EC20和东拼西凑的软件，实现了通过telegram等即时通讯软件收发短信，并通过SIP客户端从互联网呼出和接听电话。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;笔者调研的其他方案&#34;&gt;笔者调研的其他方案&lt;/h2&gt;
+&lt;h3 id=&#34;多卡宝&#34;&gt;&lt;a href=&#34;https://cn.ucloudlink.com/html/devices-simbox/&#34;&gt;多卡宝&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;一到两年前非常流行的SIM卡托管方案，可以插4张卡，并且同时可待机两张卡，使用自有app转发短信及通话。根据&lt;a href=&#34;https://fccid.io/2AC88-C1-CN/Internal-Photos/Internal-Photos-4057106&#34;&gt;FCCID的PDF&lt;/a&gt;，其使用了高通&lt;a href=&#34;https://www.qualcomm.com/products/application/smartphones/qualcomm-2-series-mobile-platforms/snapdragon-processors-210&#34;&gt;Snapdragon 210&lt;/a&gt;处理器，其常见于一些4G老人机上，鉴于此，笔者怀疑多卡宝使用了魔改的android系统。但在2021年下半年，多卡宝疑似因监管原因（可能是被用于电信诈骗？）被国内电商下架，并且因短信语音均需要经过三方服务器，也有一些安全隐患。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Openwrt 和 MikroTik RouterOS 路由器通过 IPIP/EOIP 进行二层组网</title>
+      <link>https://blog.sparktour.me/posts/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/</link>
+      <pubDate>Sun, 18 Sep 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/</guid>
+      <description>&lt;p&gt;一直以来，本地路由器远程连接实验室的网络连接都是通过办公室ikuai软路由的L2TP连接实现的，但L2TP作为一个有状态协议，在遇到连接中断后恢复起来会比较麻烦，以及ikuai的L2TP server并不是很稳定，且没有办法分配IPv6。因此在近期，笔者将路由器连接实验室网络的组网方式改为了IPIP及EoIP的组合组网配置，并在很大程度上解决了上述问题。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Openwrt 和通用Linux设备通过 IPIP/GRETAP 进行二层组网</title>
+      <link>https://blog.sparktour.me/posts/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/</link>
+      <pubDate>Sun, 18 Sep 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/</guid>
+      <description>&lt;p&gt;在&lt;a href=&#34;https://blog.sparktour.me/posts/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/&#34;&gt;前一篇文章中&lt;/a&gt;，笔者尝试了用Openwrt和RouterOS配合IPIP和EoIP隧道进行二层组网。但由于Openwrt的EoIP包是一个&lt;a href=&#34;https://forum.openwrt.org/t/please-add-2-new-packages-for-eoip/57113&#34;&gt;用户态的包&lt;/a&gt;，AX6s转发EoIP流量的性能并不是特别好（有线500Mbps，无线300Mbps），同时RouterOS也是一个收费系统，并不是所有人都会只为了组网来购买RouterOS的授权。鉴于此，笔者也在下文提供一种将IPoE替换为GRETAP协议进行二层组网的方案，此方案仅需一台运行于实验室内网的通用Linux设备即可（本文使用的是Debian11）。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;gretap&#34;&gt;GRETAP？&lt;/h2&gt;
+&lt;p&gt;相比于GRE，GRETAP是类似EoIP的二层协议，因此我们同样可以将其用于二层组网。但很可惜&lt;a href=&#34;https://forum.mikrotik.com/viewtopic.php?t=160484&#34;&gt;RouterOS不支持GRETAP&lt;/a&gt;（怀疑是为了推广自家的EoIP协议），因此笔者只能使用另一台Linux设备和Openwrt路由器进行组网了。&lt;/p&gt;
+&lt;h2 id=&#34;网络结构&#34;&gt;网络结构&lt;/h2&gt;
+&lt;p&gt;此处依然简要列出一下代配置的网络结构：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>无需其他Openwrt路由器，使用任意带无线网的Linux机器解锁红米AX6路由器的SSH</title>
+      <link>https://blog.sparktour.me/posts/2022/03/18/enable-redmi-ssh-without-openwrt/</link>
+      <pubDate>Fri, 18 Mar 2022 14:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/03/18/enable-redmi-ssh-without-openwrt/</guid>
+      <description>&lt;p&gt;最近小米有品上再次开始售卖起了&lt;a href=&#34;https://www.xiaomiyoupin.com/detail?gid=134220&#34;&gt;红米AX6&lt;/a&gt;，由于这是小米出品的，能刷Openwrt的机器中较为便宜的一款，便购买了一台。根据网上的一些帖子，解锁AX6的SSH需要额外找一台运行Openwrt的路由器来跑脚本。不过经过研究，理论上&lt;strong&gt;任何能够开Wi-Fi热点（AP），且能够配置静态IP的设备&lt;/strong&gt;都能用于路由器的解锁。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一台能够开Wi-Fi热点（AP），且能够配置静态IP的设备。（笔者使用了&lt;strong&gt;安装Ubuntu的树莓派开热点&lt;/strong&gt;，理论上Linux虚拟机+能够开热点的无线网卡或者Windows电脑直接开热点都能达到类似的效果）。&lt;/li&gt;
+&lt;li&gt;设备上需要能运行web服务器（笔者用的nginx），或者能运行python（能监听本地端口即可）&lt;/li&gt;
+&lt;li&gt;未解锁的红米AX6路由器。&lt;/li&gt;
+&lt;li&gt;（可选）随便找台路由器，让操作的电脑，AX6和树莓派处在同一内网内方便ssh操作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://assets.sparktour.me/img/blog/2022/enable-redmi-ssh-without-openwrt/topology.svg&#34; alt=&#34;接线拓扑图&#34;  /&gt;
+    &lt;figcaption&gt;接线拓扑图&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>处理华为核心防火墙导致的TLS连接重置问题</title>
+      <link>https://blog.sparktour.me/posts/2021/04/25/huawei-usg9500-firewall-tls-reset-issue/</link>
+      <pubDate>Sun, 25 Apr 2021 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/04/25/huawei-usg9500-firewall-tls-reset-issue/</guid>
+      <description>&lt;p&gt;本文是2021年4月时，南科大镜像站遇到的TLS连接重置问题的调试存档。一句话概括情况：在校外向镜像站公网v4地址(116.7.234.220)的TCP 443端口发起的首个HTTPS连接会被中间设备(middlebox)抢答并阻断，镜像站主机根本没有收到这条TCP连接相关的数据包。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

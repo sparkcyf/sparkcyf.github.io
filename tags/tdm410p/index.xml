@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tdm410p on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/tdm410p/</link>
+    <description>Recent content in Tdm410p on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/tdm410p/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP</title>
+      <link>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</link>
+      <pubDate>Fri, 14 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</guid>
+      <description>&lt;p&gt;在本篇文章中，笔者尝试使用TDM410p FXO卡和freepbx，将固定电话的信号转换为了VoIP（SIP）协议，并使用SIP话机接打电话。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;所需硬件&#34;&gt;所需硬件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;FXO卡一块，比较便宜的解决方案是TDM410p，红色的是FXO卡（接墙上的电话线），绿色的是FXS卡（接电话机终端），我们所需的是&lt;strong&gt;FXO卡&lt;/strong&gt;，购买前需要注意有些卡是PCI接口的，可能需要另外买PCI转PCIe的转接卡。淘宝上的单口FXO卡大约200元一块。笔者买了某淘宝店的单口FXO组合板（一张PCI接口的单口FXO卡，和一张PCI转PCIe转接卡组合在了一起）&lt;/li&gt;
+&lt;li&gt;主机一台，由于TDM410p的硬件规格太老，似乎&lt;a href=&#34;https://forum.proxmox.com/threads/pci-passthrough-problems.20728/&#34;&gt;无法在PVE上进行pcie直通&lt;/a&gt;，因此笔者用了一台旧电脑直接安装了&lt;a href=&#34;https://www.freepbx.org/downloads/&#34;&gt;FreePBX发行版&lt;/a&gt;。（根据网上的讨论，fxo及freepbx对机器的性能要求很低，甚至十多年前的酷睿2+2G内存都能正常运行）&lt;/li&gt;
+&lt;li&gt;*（可选）*若干台IP电话，可在闲鱼上以「思科/Cisco IP电话」之类的关键词搜索。大概能搜到60-100元一台的&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7900-series/index.html&#34;&gt;CP7900&lt;/a&gt;或&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8900-series/index.html&#34;&gt;CP8900&lt;/a&gt;系列的电话机，价格甚至比某些接RJ11的传统电话机还便宜。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
+&lt;h3 id=&#34;fxo卡&#34;&gt;FXO卡&lt;/h3&gt;
+&lt;p&gt;FXO卡的硬件是通过&lt;a href=&#34;https://wiki.asterisk.org/wiki/display/DAHDI/DAHDI&#34;&gt;dahdi&lt;/a&gt;进行驱动的，freepbx已经自带了这些驱动，理论上插上fxo卡之后，dahdi就能识别出来了。同时，我们也可以通过&lt;code&gt;dahdi_scan&lt;/code&gt;来验证一下：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

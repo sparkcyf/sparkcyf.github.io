@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sharelatex on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/sharelatex/</link>
+    <description>Recent content in Sharelatex on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 18 Apr 2024 18:30:45 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/sharelatex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为自部署Overleaf/Sharelatex实例添加LDAP和OAuth2/OpenID Connect登录支持</title>
+      <link>https://blog.sparktour.me/posts/2022/06/11/self-host-overleaf-with-ldap-and-oauth2-support/</link>
+      <pubDate>Sat, 11 Jun 2022 09:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/06/11/self-host-overleaf-with-ldap-and-oauth2-support/</guid>
+      <description>&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://assets.sparktour.me/img/blog/2022/self-host-overleaf-with-ldap-and-oauth2-support/cover.png&#34; alt=&#34;效果图&#34;  /&gt;
+    &lt;figcaption&gt;效果图&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;既去年给自部署Overleaf实例添加了邮箱注册功能之后，最近在TUNA的同学的帮助下，笔者也为南科大的Overleaf实例添加了LDAP登录和OAuth2/OpenID Connect登录的选项，进一步减少了用户登录Overleaf时需要的步骤。由于加上了外部的单点登录，学校的Overleaf也就不再需要邮件注册的功能了，因此本文将不再提及如何启用邮件注册，如需了解可以看笔者之前写的文章。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

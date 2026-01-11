@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gmw on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/gmw/</link>
+    <description>Recent content in Gmw on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/gmw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决充值Skype时跳转skype.gmw.cn的问题</title>
+      <link>https://blog.sparktour.me/posts/2022/02/01/untag-skype-account-from-gmw-cn/</link>
+      <pubDate>Tue, 01 Feb 2022 20:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/02/01/untag-skype-account-from-gmw-cn/</guid>
+      <description>&lt;p&gt;Skype的充值服务在中国大陆目前被一个名为「光明网」的实体代理（似乎是一些合规性问题，可以见下方知乎中的回答）。因此，所有被Skype的系统标记为「中国大陆」的账户，在充值时都会被跳转到光明网下的一个&lt;a href=&#34;http://skype.gmw.cn/product/productlist.html&#34;&gt;充值网页&lt;/a&gt;。而如果我们不希望充值时被跳转，则可以通过与在线客服沟通的方式让Skype取消账户的「中国大陆」标记。需要注意的是，沟通时需要向客服提供中国大陆以外的地址证明（银行月结单，水电费信用卡账单均可）。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

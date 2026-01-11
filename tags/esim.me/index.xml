@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Esim.me on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/esim.me/</link>
+    <description>Recent content in Esim.me on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 04 Oct 2024 11:53:20 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/esim.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过PC/SC智能卡读卡器配置esim.me的SIM卡</title>
+      <link>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</guid>
+      <description>&lt;p&gt;最近从群友处得到了数张&lt;a href=&#34;https://esim.me&#34;&gt;esim.me&lt;/a&gt;的「可拆卸eSIM卡」。简而言之，这种esim卡被制造成普通sim卡的形态，因此能够直接插入任意支持物理sim卡的手机，并通过esim.me提供的android app为esim卡添加profile。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;尽管esim.me在销售这些esim卡时，根据每个esim卡能够加入的profile数量区分了不同的价格档位。后续在网上查阅博客文章时，有人也提到这些不同价格的esim卡的硬件是完全一致的，esim.me只是通过手机配置app对不同价位的卡进行了软件上的限制。并且如果将这些esim卡插入支持esim的LTE模块，即可直接&lt;a href=&#34;https://support.microsoft.com/en-us/windows/use-an-esim-to-get-a-cellular-data-connection-on-your-windows-pc-0e255714-f8be-b9ef-9e84-f75b05ed98a3&#34;&gt;通过Windows的esim管理界面添加和删除profile&lt;/a&gt;。不过目前支持esim的LTE模块主要为移远的&lt;a href=&#34;https://www.quectel.com/product/5g-rm50xq-series&#34;&gt;RM-50xQ系列&lt;/a&gt;（二手价格550元）和戴尔的dw5821e（二手价格300元）/dw5829e模块。为了配置esim卡而专门采购这些LTE模块显然有些得不偿失。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

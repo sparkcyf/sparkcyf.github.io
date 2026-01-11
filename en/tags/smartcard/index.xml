@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Smartcard on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/smartcard/</link>
+    <description>Recent content in Smartcard on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Oct 2024 11:53:20 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/smartcard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure esim.me SIM Card with PC/SC Smart Card Reader</title>
+      <link>https://blog.sparktour.me/en/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</link>
+      <pubDate>Sun, 20 Nov 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2022/11/20/configure-esim-me-card-with-pc-sc-reader/</guid>
+      <description>&lt;p&gt;I recently obtained several &amp;ldquo;removable eSIM cards&amp;rdquo; from esim.me from a friend in a group chat. In short, these eSIM cards are manufactured in the form of ordinary SIM cards, so they can be directly inserted into any mobile phone that supports physical SIM cards, and profiles can be added to the eSIM cards through the Android app provided by esim.me.&lt;/p&gt;
+&lt;p&gt;Although esim.me differentiates the prices of these eSIM cards based on the number of profiles that each eSIM card can join, when I later searched for blog posts online, some people mentioned that the hardware of these eSIM cards at different price points is exactly the same, and esim.me only imposed software restrictions on cards at different price points through the mobile configuration app. And if these eSIM cards are inserted into LTE modules that support eSIM, profiles can be directly added and deleted through the Windows eSIM management interface. However, the current LTE modules that support eSIM are mainly Quectel&amp;rsquo;s RM-50xQ series (used price 550 yuan) and Dell&amp;rsquo;s dw5821e (used price 300 yuan) / dw5829e modules. It&amp;rsquo;s obviously not cost-effective to purchase these LTE modules just to configure the eSIM card.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

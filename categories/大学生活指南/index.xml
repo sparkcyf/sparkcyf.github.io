@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>大学生活指南 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB%E6%8C%87%E5%8D%97/</link>
+    <description>Recent content in 大学生活指南 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 18 Apr 2024 18:30:45 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大学生活指南-如何选择适用于寝室的路由器与合适的网络配置</title>
+      <link>https://blog.sparktour.me/posts/2019/07/19/e5-a4-a7-e5-ad-a6-e7-94-9f-e6-b4-bb-e6-8c-87-e5-8d-97-e5-a6-82-e4-bd-95-e9-80-89-e6-8b-a9-e9-80-82-e7-94-a8-e4-ba-8e-e5-af-9d-e5-ae-a4-e7-9a-84-e8-b7-af-e7-94-b1-e5-99-a8-e4-b8-8e-e5-90-88-e9-80-82/</link>
+      <pubDate>Fri, 19 Jul 2019 23:31:25 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/07/19/e5-a4-a7-e5-ad-a6-e7-94-9f-e6-b4-bb-e6-8c-87-e5-8d-97-e5-a6-82-e4-bd-95-e9-80-89-e6-8b-a9-e9-80-82-e7-94-a8-e4-ba-8e-e5-af-9d-e5-ae-a4-e7-9a-84-e8-b7-af-e7-94-b1-e5-99-a8-e4-b8-8e-e5-90-88-e9-80-82/</guid>
+      <description>&lt;p&gt;进入了大学，每个同学都想要并需要一个高速，稳定的网络环境，因此选择路由器也就显得十分重要了。本文将会基于笔者之前的一些体验和网络上的文章和数据，推荐几款路由器，并补充一些大陆高校校园网的“技巧”。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

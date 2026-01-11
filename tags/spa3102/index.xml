@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Spa3102 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/spa3102/</link>
+    <description>Recent content in Spa3102 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 19 Apr 2024 09:59:44 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/spa3102/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>配置 Linksys SPA3102 并接入固定电话网</title>
+      <link>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</link>
+      <pubDate>Sat, 15 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</guid>
+      <description>&lt;p&gt;在本篇文章中，笔者尝试使用Linksys (CISCO / SIPURA) SPA3102连接固话网络并接入freepbx，将固定电话的信号转换为了VoIP（SIP）协议。本文的效果与&lt;a href=&#34;https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/&#34;&gt;《使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP》&lt;/a&gt;一文中的类似。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

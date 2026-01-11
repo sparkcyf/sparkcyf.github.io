@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>未分类 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/</link>
+    <description>Recent content in 未分类 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 18 Apr 2024 16:54:14 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LRTimelapse: A Better Way to Create a Smooth Time-Lapse</title>
+      <link>https://blog.sparktour.me/posts/2019/05/02/lrtimelapse-a-better-way-to-create-a-smooth-time-lapse/</link>
+      <pubDate>Thu, 02 May 2019 11:13:20 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/05/02/lrtimelapse-a-better-way-to-create-a-smooth-time-lapse/</guid>
+      <description>&lt;p&gt;教程:使用LRTimelapse制作平滑的延时&lt;/p&gt;
+&lt;p&gt;自从有了gopro之后，他的用途一般就是拍摄延时。不过延时的后期处理一直是一件比较麻烦的事情，之前在知道这个软件之前我一直使用AfterEffects和Adobe的ACR来处理，但ACR只能修改序列的第一张图片，后面的图片就和只能沿用第一张图的设置，在处理亮度和色温大幅度变化的场景就很难兼顾全部的图片了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Finally, it works!</title>
+      <link>https://blog.sparktour.me/posts/2019/04/17/finally-it-works/</link>
+      <pubDate>Wed, 17 Apr 2019 19:37:37 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/04/17/finally-it-works/</guid>
+      <description>&lt;p&gt;on Apr 17, 2019&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

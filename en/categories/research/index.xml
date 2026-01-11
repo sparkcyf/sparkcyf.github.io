@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Research on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/categories/research/</link>
+    <description>Recent content in Research on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jan 2025 21:53:35 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Bonito Basecaller on Nvidia Jetson and other ARM64 devices</title>
+      <link>https://blog.sparktour.me/en/posts/2025/01/25/port-ont-bonito-koi-to-jetson-arm64/</link>
+      <pubDate>Sat, 25 Jan 2025 21:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2025/01/25/port-ont-bonito-koi-to-jetson-arm64/</guid>
+      <description>Jetson is an embedded AI computing platform launched by Nvidia. Compared to laptops and servers, Jetson has a smaller size and lower power consumption, making it suitable for deployment on edge devices. Oxford Nanopore Technology has also released MinION Mk1C based on the Jetson platform for real-time analysis of sequencing data. This article describes how to install and run Bonito Basecaller on Jetson for real-time sequencing data analysis and model training on edge devices.</description>
+    </item>
+    <item>
+      <title>A Look at the Nanopore Basecaller: Bonito</title>
+      <link>https://blog.sparktour.me/en/posts/2024/09/25/a-look-at-nanopore-basecaller-bonito/</link>
+      <pubDate>Wed, 25 Sep 2024 21:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2024/09/25/a-look-at-nanopore-basecaller-bonito/</guid>
+      <description>Bonito, named after the bonito fish, is a basecaller developed by Oxford Nanopore Technology. In this article, I will try to explain, in an easy-to-understand way, the data flow and data formats of Bonito, as well as some knowledge needed for the secondary development of Bonito (or even other nanopore sequencing basecallers).</description>
+    </item>
+  </channel>
+</rss>

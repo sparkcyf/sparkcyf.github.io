@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rdma on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/rdma/</link>
+    <description>Recent content in Rdma on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/rdma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Mellanox网卡基于RDMA挂载NFS</title>
+      <link>https://blog.sparktour.me/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</link>
+      <pubDate>Thu, 24 Aug 2023 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/08/24/mount-nfs-via-rdma-on-mlnx-card/</guid>
+      <description>&lt;p&gt;笔者的实验室于近期购置了8块nvme硬盘，通过pcie转接卡转接至一台服务器，并用ZFS组了RAID。为了能让实验室的其他服务器也能快速访问主机上的存储池，笔者去闲鱼套了两块ConnectX-4 CX4121A 10Gbe 的万兆网卡用来连接两台服务器，并配置了NFS Over RDMA。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dhcpv6 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/dhcpv6/</link>
+    <description>Recent content in Dhcpv6 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/dhcpv6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Mikrotik RouterOS 和 Openwrt 在 ISP 获得的 IPv6 Prefix 上配置二级 PD </title>
+      <link>https://blog.sparktour.me/posts/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/</link>
+      <pubDate>Wed, 18 Oct 2023 09:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2023/10/18/mikrotik-routeros-openwrt-ipv6-prefix-delegation/</guid>
+      <description>&lt;p&gt;在中国大陆，电信运营商常为使用PPPoE拨号的用户分配&lt;code&gt;/60&lt;/code&gt;的IPv6 prefix delegation。在本文中，笔者尝试了使用Mikrotik RouterOS获取了电信运营商分配的IPv6 PD，并为下级路由器和PPP接口上的设备继续分发了&lt;code&gt;/64&lt;/code&gt;的IPv6 PD。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

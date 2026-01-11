@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bonito on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/bonito/</link>
+    <description>Recent content in Bonito on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 26 Jan 2025 21:53:35 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/bonito/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 Nvidia Jetson 上运行 Bonito Basecaller</title>
+      <link>https://blog.sparktour.me/posts/2025/01/25/port-ont-bonito-koi-to-jetson-arm64/</link>
+      <pubDate>Sat, 25 Jan 2025 21:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2025/01/25/port-ont-bonito-koi-to-jetson-arm64/</guid>
+      <description>Jetson是Nvidia推出的一款嵌入式AI计算平台，相比笔记本电脑和服务器，Jetson具有更小的体积和更低的功耗，适合部署在边缘设备上。Oxford Nanopore Technology也曾基于Jetson平台发布了MinION Mk1C，用于实时测序数据的分析。本文介绍了如何在Jetson上安装并运行Bonito Basecaller，以便在边缘设备上进行实时测序数据的分析和模型训练。</description>
+    </item>
+    <item>
+      <title>A Look at the Nanopore Basecaller: Bonito</title>
+      <link>https://blog.sparktour.me/posts/2024/09/25/a-look-at-nanopore-basecaller-bonito/</link>
+      <pubDate>Wed, 25 Sep 2024 21:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/09/25/a-look-at-nanopore-basecaller-bonito/</guid>
+      <description>Bonito（中文直译为鲣鱼）是Oxford Nanopore Technology开发的一款basecaller。在本文中，笔者尽量以通俗易懂的语言，介绍bonito的一些数据流和数据格式等二次开发bonito（甚至是其他的纳米孔测序basecaller）需要了解的一些知识。</description>
+    </item>
+  </channel>
+</rss>

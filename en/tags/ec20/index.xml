@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ec20 on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/ec20/</link>
+    <description>Recent content in Ec20 on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Jan 2025 22:58:05 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/ec20/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using EC20 Module, Asterisk, and FreePBX for SMS Forwarding and VoIP</title>
+      <link>https://blog.sparktour.me/en/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</link>
+      <pubDate>Sat, 08 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</guid>
+      <description>In many parts of the world, mobile phone numbers are increasingly intertwined with online services and personal identity. This is particularly true in mainland China, where a single user may find themselves managing multiple phone numbers for various applications and platforms. While solutions like telegram-sms and SMS-forwarder have emerged to address the inconvenience of managing multiple physical SIM cards, they come with limitations. These apps, typically installed on smartphones, are often hampered by aggressive background process management common on Android devices, leading to unreliable SMS forwarding. Furthermore, the practice of keeping older devices powered on long-term for this purpose introduces safety concerns, such as battery swelling. Perhaps the most significant limitation is the inability to handle phone calls; these apps only address SMS. This article details a project where the author, leveraging an EC20 cellular module and a blend of software tools, overcame these limitations. The setup allows for SMS messaging through instant messaging applications like Telegram, and makes and receives phone calls over the internet using SIP clients, providing a more robust and flexible solution.</description>
+    </item>
+  </channel>
+</rss>

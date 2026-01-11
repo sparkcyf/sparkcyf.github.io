@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tr069 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/tr069/</link>
+    <description>Recent content in Tr069 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/tr069/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PT924G光猫配置VLAN单线复用</title>
+      <link>https://blog.sparktour.me/posts/2024/02/02/pt924g-modem-vlan/</link>
+      <pubDate>Fri, 02 Feb 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/02/02/pt924g-modem-vlan/</guid>
+      <description>&lt;p&gt;在本文中，我们将介绍如何在PT924G光猫上配置VLAN单线复用，以便在单根光纤上同时传输上网，IPTV和TR069等业务。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;获取超级管理员密码&#34;&gt;获取超级管理员密码&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Manufacturer:youhua
+ProductClass:PT924G
+HWVersion:   V4.0.00
+SWVersion:   V10.00.924GD02
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;参考&lt;a href=&#34;https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;amp;tid=8251873&#34;&gt;恩山&lt;/a&gt;的帖子：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

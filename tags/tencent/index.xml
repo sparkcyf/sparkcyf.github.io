@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tencent on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/tencent/</link>
+    <description>Recent content in Tencent on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 15 Apr 2024 09:09:20 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/tencent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>腾讯实习小结：你走过的路都将会在未来发挥意想不到的作用</title>
+      <link>https://blog.sparktour.me/posts/2021/08/10/tencent-intern-conclusion/</link>
+      <pubDate>Tue, 10 Aug 2021 21:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/08/10/tencent-intern-conclusion/</guid>
+      <description>&lt;h1 id=&#34;腾讯实习小结你走过的路都将会在未来发挥意想不到的作用&#34;&gt;腾讯实习小结：你走过的路都将会在未来发挥意想不到的作用&lt;/h1&gt;
+&lt;p&gt;时间过得很快，本周已经是实习的第七周，实习的最后一周了。腾讯的实习让我认识到了许多不曾在校园内能够体验到的东西，比如学术界和工业界对技术运用的差异，大型企业的协作与分工，和同事间的关系等等。在写这篇文章时，我还是更希望继续回到学术界进行深造，因此我选择了放弃此次实习的转正考核。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>腾讯实习初体验</title>
+      <link>https://blog.sparktour.me/posts/2021/07/04/tencent-intern-first-impression/</link>
+      <pubDate>Sun, 04 Jul 2021 13:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/07/04/tencent-intern-first-impression/</guid>
+      <description>&lt;h1 id=&#34;腾讯实习初体验&#34;&gt;腾讯实习初体验&lt;/h1&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://assets.sparktour.me/img/blog/2021/tencent-intern-first-impression/banner.jpg&#34; alt=&#34;&#34;  /&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;说起来这个实习的来历还十分坎坷。在三月份的实习申请季，学院为我们推荐了华为海思的实习，可海思的实习笔试占比的绝大部分均是和verilog和验证有关的题目，而这正好触碰到了我知识的盲区😂（我们的课题组主要做的是生物与光学器件的仿真）。在被华为挂了之后，我「病急乱投医」地把阿里和腾讯都投了一遍。在选择岗位时，想到自己不是科班出身，只对运维方面的事务略有了解，于是就选择了腾讯的技术运营和阿里的基础架构开发。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

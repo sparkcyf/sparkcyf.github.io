@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gretap on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/gretap/</link>
+    <description>Recent content in Gretap on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 19 Apr 2024 09:59:44 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/gretap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Openwrt 和通用Linux设备通过 IPIP/GRETAP 进行二层组网</title>
+      <link>https://blog.sparktour.me/posts/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/</link>
+      <pubDate>Sun, 18 Sep 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/09/18/openwrt-linux-layer2-network-with-ipip-and-gretap-tunnel/</guid>
+      <description>&lt;p&gt;在&lt;a href=&#34;https://blog.sparktour.me/posts/2022/09/18/openwrt-mikrotik-layer2-network-with-ipip-and-eoip-tunnel/&#34;&gt;前一篇文章中&lt;/a&gt;，笔者尝试了用Openwrt和RouterOS配合IPIP和EoIP隧道进行二层组网。但由于Openwrt的EoIP包是一个&lt;a href=&#34;https://forum.openwrt.org/t/please-add-2-new-packages-for-eoip/57113&#34;&gt;用户态的包&lt;/a&gt;，AX6s转发EoIP流量的性能并不是特别好（有线500Mbps，无线300Mbps），同时RouterOS也是一个收费系统，并不是所有人都会只为了组网来购买RouterOS的授权。鉴于此，笔者也在下文提供一种将IPoE替换为GRETAP协议进行二层组网的方案，此方案仅需一台运行于实验室内网的通用Linux设备即可（本文使用的是Debian11）。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;gretap&#34;&gt;GRETAP？&lt;/h2&gt;
+&lt;p&gt;相比于GRE，GRETAP是类似EoIP的二层协议，因此我们同样可以将其用于二层组网。但很可惜&lt;a href=&#34;https://forum.mikrotik.com/viewtopic.php?t=160484&#34;&gt;RouterOS不支持GRETAP&lt;/a&gt;（怀疑是为了推广自家的EoIP协议），因此笔者只能使用另一台Linux设备和Openwrt路由器进行组网了。&lt;/p&gt;
+&lt;h2 id=&#34;网络结构&#34;&gt;网络结构&lt;/h2&gt;
+&lt;p&gt;此处依然简要列出一下代配置的网络结构：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

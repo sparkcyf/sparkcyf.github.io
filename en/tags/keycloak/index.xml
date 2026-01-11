@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Keycloak on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/keycloak/</link>
+    <description>Recent content in Keycloak on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jul 2024 21:32:07 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/keycloak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add optional passkey/webauth/OTP login to Keycloak</title>
+      <link>https://blog.sparktour.me/en/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</link>
+      <pubDate>Wed, 24 Jan 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2024/01/24/add-passkey-webauth-otp-support-to-keycloak/</guid>
+      <description>&lt;p&gt;This article describes the process of configuring Keycloak for passwordless login using passkeys, webauthn, and OTP (One-Time Password). Some configurations in this article may require &lt;a href=&#34;https://www.keycloak.org/docs/latest/release_notes/index.html#passkeys-support&#34;&gt;Keycloak 23&lt;/a&gt; or higher to function properly.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;configuring-the-authentication-section&#34;&gt;Configuring the Authentication Section&lt;/h2&gt;
+&lt;p&gt;In Keycloak&amp;rsquo;s &lt;code&gt;Authentication - Flow&lt;/code&gt; menu, duplicate the browser flow.  We&amp;rsquo;ll name the copy &lt;code&gt;browser with optional webauth and otp&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://assets.sparktour.me/img/blog/2024/add-passkey-webauth-otp-support-to-keycloak/dup-browser-flow.webp&#34; alt=&#34;Duplicate Browser Flow&#34;  /&gt;
+    &lt;figcaption&gt;Duplicate Browser Flow&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In the new flow, delete &lt;code&gt;browser password form&lt;/code&gt; and all steps/flows below it:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

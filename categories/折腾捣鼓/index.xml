@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>折腾捣鼓 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/categories/%E6%8A%98%E8%85%BE%E6%8D%A3%E9%BC%93/</link>
+    <description>Recent content in 折腾捣鼓 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 18 Apr 2024 16:54:14 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/categories/%E6%8A%98%E8%85%BE%E6%8D%A3%E9%BC%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Pixel 1 &#39;s lte in CT/CMCC/CU &amp; Improve Signal Reliability in Mainland China Without Factory Reset 无需恢复出厂设置，让pixel1在大陆可用电信/联通/移动lte</title>
+      <link>https://blog.sparktour.me/posts/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/</link>
+      <pubDate>Sat, 11 May 2019 00:59:04 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2019/05/11/enable-pixel-1-s-lte-in-ct-cmcc-cu-improve-signal-reliability-in-mainland-china-without-factory-reset-e6-97-a0-e9-9c-80-e6-81-a2-e5-a4-8d-e5-87-ba-e5-8e-82-e8-ae-be-e7-bd-ae-ef-bc-8c-e8-ae-a9pixel1/</guid>
+      <description>&lt;p&gt;自从pixel1开始，Google就不再把大陆运营商的lte配置文件内置在手机内了，在使用的过程中就会遇到不少麻烦：联通还能基本正常使用（但似乎配置文件不完整，信号会比较一般），但电信就无法直接使用lte了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

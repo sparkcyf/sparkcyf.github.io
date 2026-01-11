@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sip on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/sip/</link>
+    <description>Recent content in Sip on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 19 Apr 2024 09:59:44 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/sip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>配置 Linksys SPA3102 并接入固定电话网</title>
+      <link>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</link>
+      <pubDate>Sat, 15 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/15/voip-fxo-via-linksys-spa3102/</guid>
+      <description>&lt;p&gt;在本篇文章中，笔者尝试使用Linksys (CISCO / SIPURA) SPA3102连接固话网络并接入freepbx，将固定电话的信号转换为了VoIP（SIP）协议。本文的效果与&lt;a href=&#34;https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/&#34;&gt;《使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP》&lt;/a&gt;一文中的类似。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用FXO卡配合asterisk及freepbx将固定电话信号转为VoIP</title>
+      <link>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</link>
+      <pubDate>Fri, 14 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/14/voip-fxo-via-asterisk-freepbx-dahdi/</guid>
+      <description>&lt;p&gt;在本篇文章中，笔者尝试使用TDM410p FXO卡和freepbx，将固定电话的信号转换为了VoIP（SIP）协议，并使用SIP话机接打电话。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;所需硬件&#34;&gt;所需硬件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;FXO卡一块，比较便宜的解决方案是TDM410p，红色的是FXO卡（接墙上的电话线），绿色的是FXS卡（接电话机终端），我们所需的是&lt;strong&gt;FXO卡&lt;/strong&gt;，购买前需要注意有些卡是PCI接口的，可能需要另外买PCI转PCIe的转接卡。淘宝上的单口FXO卡大约200元一块。笔者买了某淘宝店的单口FXO组合板（一张PCI接口的单口FXO卡，和一张PCI转PCIe转接卡组合在了一起）&lt;/li&gt;
+&lt;li&gt;主机一台，由于TDM410p的硬件规格太老，似乎&lt;a href=&#34;https://forum.proxmox.com/threads/pci-passthrough-problems.20728/&#34;&gt;无法在PVE上进行pcie直通&lt;/a&gt;，因此笔者用了一台旧电脑直接安装了&lt;a href=&#34;https://www.freepbx.org/downloads/&#34;&gt;FreePBX发行版&lt;/a&gt;。（根据网上的讨论，fxo及freepbx对机器的性能要求很低，甚至十多年前的酷睿2+2G内存都能正常运行）&lt;/li&gt;
+&lt;li&gt;*（可选）*若干台IP电话，可在闲鱼上以「思科/Cisco IP电话」之类的关键词搜索。大概能搜到60-100元一台的&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7900-series/index.html&#34;&gt;CP7900&lt;/a&gt;或&lt;a href=&#34;https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8900-series/index.html&#34;&gt;CP8900&lt;/a&gt;系列的电话机，价格甚至比某些接RJ11的传统电话机还便宜。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
+&lt;h3 id=&#34;fxo卡&#34;&gt;FXO卡&lt;/h3&gt;
+&lt;p&gt;FXO卡的硬件是通过&lt;a href=&#34;https://wiki.asterisk.org/wiki/display/DAHDI/DAHDI&#34;&gt;dahdi&lt;/a&gt;进行驱动的，freepbx已经自带了这些驱动，理论上插上fxo卡之后，dahdi就能识别出来了。同时，我们也可以通过&lt;code&gt;dahdi_scan&lt;/code&gt;来验证一下：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用EC20模块配合asterisk及freepbx实现短信转发和网络电话</title>
+      <link>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</link>
+      <pubDate>Sat, 08 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</guid>
+      <description>&lt;p&gt;由于内地各种互联网服务与手机强绑定的前提下，每个人手上的手机号码变得越来越多。在互联网上，早已有包括&lt;a href=&#34;https://github.com/telegram-sms/telegram-sms-china&#34;&gt;telegram-sms&lt;/a&gt;，&lt;a href=&#34;https://github.com/pppscn/SmsForwarder&#34;&gt;SMS-forwarder&lt;/a&gt;等不同的应用被用来解决不想随身带着某张手机卡，却还需要拿他接收发送短信的场景。不过美中不足的是，由于这些应用均需要安装在手机上，这些短信转发应用均存在因国产android系统严格的后台限制被休眠导致无法转发短信的情况。同时，将带电池的旧手机长期插电也有一些安全隐患（电池鼓包等）。最重要的是，这些短信转发转发软件无法转移呼入和呼出的电话。为了解决上述的这些问题，在本文中，笔者基于EC20和东拼西凑的软件，实现了通过telegram等即时通讯软件收发短信，并通过SIP客户端从互联网呼出和接听电话。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;笔者调研的其他方案&#34;&gt;笔者调研的其他方案&lt;/h2&gt;
+&lt;h3 id=&#34;多卡宝&#34;&gt;&lt;a href=&#34;https://cn.ucloudlink.com/html/devices-simbox/&#34;&gt;多卡宝&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;一到两年前非常流行的SIM卡托管方案，可以插4张卡，并且同时可待机两张卡，使用自有app转发短信及通话。根据&lt;a href=&#34;https://fccid.io/2AC88-C1-CN/Internal-Photos/Internal-Photos-4057106&#34;&gt;FCCID的PDF&lt;/a&gt;，其使用了高通&lt;a href=&#34;https://www.qualcomm.com/products/application/smartphones/qualcomm-2-series-mobile-platforms/snapdragon-processors-210&#34;&gt;Snapdragon 210&lt;/a&gt;处理器，其常见于一些4G老人机上，鉴于此，笔者怀疑多卡宝使用了魔改的android系统。但在2021年下半年，多卡宝疑似因监管原因（可能是被用于电信诈骗？）被国内电商下架，并且因短信语音均需要经过三方服务器，也有一些安全隐患。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

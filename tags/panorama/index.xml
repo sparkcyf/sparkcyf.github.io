@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Panorama on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/panorama/</link>
+    <description>Recent content in Panorama on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 18 Apr 2024 21:09:32 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/panorama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为校园生成街景</title>
+      <link>https://blog.sparktour.me/posts/2021/06/16/campus-streetview/</link>
+      <pubDate>Wed, 16 Jun 2021 13:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/06/16/campus-streetview/</guid>
+      <description>&lt;h1 id=&#34;为校园生成街景&#34;&gt;为校园生成街景&lt;/h1&gt;
+&lt;p&gt;给学校做一个街景是大一入学以来一直以来的一个愿望了。在大二的时候，我们已经为学校拍摄了数张航拍全景，本想打算以此为基础为学校做一个完整的全景覆盖的，可惜疫情之后学校就不再让学生在未经老师允许的情况下飞行无人机了。街景的实现方式也从无人机变成了土制街景单车（误）。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

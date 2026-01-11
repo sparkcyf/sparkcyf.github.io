@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Volte on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/volte/</link>
+    <description>Recent content in Volte on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 Apr 2024 21:54:57 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/volte/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用EC20模块配合asterisk及freepbx实现短信转发和网络电话</title>
+      <link>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</link>
+      <pubDate>Sat, 08 Oct 2022 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/</guid>
+      <description>&lt;p&gt;由于内地各种互联网服务与手机强绑定的前提下，每个人手上的手机号码变得越来越多。在互联网上，早已有包括&lt;a href=&#34;https://github.com/telegram-sms/telegram-sms-china&#34;&gt;telegram-sms&lt;/a&gt;，&lt;a href=&#34;https://github.com/pppscn/SmsForwarder&#34;&gt;SMS-forwarder&lt;/a&gt;等不同的应用被用来解决不想随身带着某张手机卡，却还需要拿他接收发送短信的场景。不过美中不足的是，由于这些应用均需要安装在手机上，这些短信转发应用均存在因国产android系统严格的后台限制被休眠导致无法转发短信的情况。同时，将带电池的旧手机长期插电也有一些安全隐患（电池鼓包等）。最重要的是，这些短信转发转发软件无法转移呼入和呼出的电话。为了解决上述的这些问题，在本文中，笔者基于EC20和东拼西凑的软件，实现了通过telegram等即时通讯软件收发短信，并通过SIP客户端从互联网呼出和接听电话。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;笔者调研的其他方案&#34;&gt;笔者调研的其他方案&lt;/h2&gt;
+&lt;h3 id=&#34;多卡宝&#34;&gt;&lt;a href=&#34;https://cn.ucloudlink.com/html/devices-simbox/&#34;&gt;多卡宝&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;一到两年前非常流行的SIM卡托管方案，可以插4张卡，并且同时可待机两张卡，使用自有app转发短信及通话。根据&lt;a href=&#34;https://fccid.io/2AC88-C1-CN/Internal-Photos/Internal-Photos-4057106&#34;&gt;FCCID的PDF&lt;/a&gt;，其使用了高通&lt;a href=&#34;https://www.qualcomm.com/products/application/smartphones/qualcomm-2-series-mobile-platforms/snapdragon-processors-210&#34;&gt;Snapdragon 210&lt;/a&gt;处理器，其常见于一些4G老人机上，鉴于此，笔者怀疑多卡宝使用了魔改的android系统。但在2021年下半年，多卡宝疑似因监管原因（可能是被用于电信诈骗？）被国内电商下架，并且因短信语音均需要经过三方服务器，也有一些安全隐患。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

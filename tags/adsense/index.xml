@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Adsense on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/adsense/</link>
+    <description>Recent content in Adsense on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 18 Apr 2024 18:30:45 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/adsense/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 Vuepress 2 中使用 Google Adsense 并配置自适应加载</title>
+      <link>https://blog.sparktour.me/posts/2021/09/20/google-adsense-vuepress-2-wxapp/</link>
+      <pubDate>Mon, 20 Sep 2021 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2021/09/20/google-adsense-vuepress-2-wxapp/</guid>
+      <description>&lt;h1 id=&#34;在-vuepress-2-中使用-google-adsense-并配置自适应加载&#34;&gt;在 Vuepress 2 中使用 Google Adsense 并配置自适应加载&lt;/h1&gt;
+&lt;p&gt;迫于服务器续费的压力，最近抽时间和同学一起在社团运营的vuepress中配置了Google Adsense广告，并失陪了微信小程序，令广告只在非小程序环境下加载（由于小程序对&lt;a href=&#34;https://developers.weixin.qq.com/miniprogram/dev/framework/ability/domain.html&#34;&gt;域名备案&lt;/a&gt;的要求，adsense广告是无法在小程序的webview里面显示，强行显示还会造成小程序直接被「配置业务域名」的弹窗覆盖）。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

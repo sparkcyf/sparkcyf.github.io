@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>USA on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/usa/</link>
+    <description>Recent content in USA on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Jan 2026 17:42:05 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/usa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USA Travel Diary</title>
+      <link>https://blog.sparktour.me/en/posts/2026/01/05/2025-nm-az-trip/</link>
+      <pubDate>Mon, 05 Jan 2026 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2026/01/05/2025-nm-az-trip/</guid>
+      <description>&lt;p&gt;During the winter break, my friends and I completed a loop road trip through Arizona and New Mexico, starting from Phoenix. Our route primarily followed the I-10, I-17, I-40, and I-25 interstate highways. The journey took one week, covering a driving distance of approximately 1,870 miles (3,000 km).&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;iframe src=&#34;https://www.google.com/maps/d/embed?mid=1YyrFqRnaei7CkZhKO07hxAw8Jvh1rDM&amp;ehbc=2E312F&#34; width=&#34;100%&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
+&lt;h1 id=&#34;trip-preparation&#34;&gt;Trip Preparation&lt;/h1&gt;
+&lt;h2 id=&#34;climate-and-roads&#34;&gt;Climate and Roads&lt;/h2&gt;
+&lt;p&gt;Cities on the southern side of the loop (including Tucson, Phoenix, and Las Cruces) enjoy winter daytime temperatures consistently above 10°C (50°F). Flagstaff, Albuquerque, and the areas along I-40 are somewhat colder; temperatures can drop below freezing if a cold wave passes through. Almost all roads on the loop and within the attractions are paved, or are flattened dirt/sand roads (like at White Sands), so a standard sedan can easily handle the entire trip.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>USA Travelogue</title>
+      <link>https://blog.sparktour.me/en/posts/2024/10/03/2024-summer-usa-travel-notes/</link>
+      <pubDate>Thu, 03 Oct 2024 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2024/10/03/2024-summer-usa-travel-notes/</guid>
+      <description>&lt;p&gt;This blog post shares my travel experience in the United States during the summer of 2024. In this two-week trip, I visited cities on the West Coast, including San Francisco and Los Angeles, and on the East Coast, including New York and Washington, D.C.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;route-and-attractions-map&#34;&gt;Route and Attractions Map&lt;/h2&gt;
+&lt;p&gt;My general itinerary involved driving from San Francisco to Los Angeles, then flying to New York, taking a train to Washington, D.C., and finally flying back to San Francisco.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

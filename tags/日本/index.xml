@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>日本 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/%E6%97%A5%E6%9C%AC/</link>
+    <description>Recent content in 日本 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo -- 0.154.4</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 27 May 2024 11:15:03 +0800</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/%E6%97%A5%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>周末日本关西之旅</title>
+      <link>https://blog.sparktour.me/posts/2024/05/25/2024-japan-kansai-trip/</link>
+      <pubDate>Sat, 25 May 2024 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/05/25/2024-japan-kansai-trip/</guid>
+      <description>本次周末旅行的起因是我和同学抢到了hkexpress的学生特价机票，往返每个人只要1300HKD。考虑到旅行时间有限，我们决定只在日本关西地区活动，主要游览大阪和京都。</description>
+    </item>
+  </channel>
+</rss>
