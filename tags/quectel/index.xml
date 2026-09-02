@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Quectel on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/quectel/</link>
+    <description>Recent content in Quectel on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 04 Jul 2026 13:34:33 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/quectel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>将DJI/Baiwang的增强图传模块接入Asterisk并用Telegram Bot收发短信</title>
+      <link>https://blog.sparktour.me/posts/2026/07/04/dji-baiwang-eg25-asterisk-telegram-sms-gateway/</link>
+      <pubDate>Sat, 04 Jul 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2026/07/04/dji-baiwang-eg25-asterisk-telegram-sms-gateway/</guid>
+      <description>&lt;p&gt;前几年笔者写过一篇&lt;a href=&#34;https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/&#34;&gt;使用EC20模块配合asterisk及freepbx实现短信转发和网络电话&lt;/a&gt;的文章。当时的目标是把一张手机卡从长期插电的旧手机里解放出来，让它可以通过Asterisk接打电话，并用Telegram等工具转发短信。几年后，笔者在某频道看到了拼多多上有商家在清仓DJI的一代增强图传模块，于是花30多元购买了一块。它的USB ID显示为&lt;code&gt;2ca3:4006 DJI Technology Co., Ltd. Baiwang&lt;/code&gt;，但从网上的资料和AT命令看，它本质上仍然是高通平台上的EG25/EC25一类模块，不过无法刷入标准的Quectel固件。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

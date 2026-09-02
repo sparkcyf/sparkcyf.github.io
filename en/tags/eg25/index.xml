@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Eg25 on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/eg25/</link>
+    <description>Recent content in Eg25 on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Jul 2026 13:40:06 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/eg25/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connecting a DJI/Baiwang Enhanced Transmission Module to Asterisk and Telegram SMS Bots</title>
+      <link>https://blog.sparktour.me/en/posts/2026/07/04/dji-baiwang-eg25-asterisk-telegram-sms-gateway/</link>
+      <pubDate>Sat, 04 Jul 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2026/07/04/dji-baiwang-eg25-asterisk-telegram-sms-gateway/</guid>
+      <description>&lt;p&gt;A few years ago I wrote a post about &lt;a href=&#34;https://blog.sparktour.me/en/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/&#34;&gt;using an EC20 module with Asterisk and FreePBX for SMS forwarding and VoIP&lt;/a&gt;. The goal back then was to free a SIM card from an always-plugged-in old phone, so that it could make and receive calls through Asterisk and forward SMS through Telegram and similar tools. A few years later, I saw a seller clearing out first-generation DJI Enhanced Transmission modules on Pinduoduo, so I bought one for a little over 30 RMB. Its USB ID shows up as &lt;code&gt;2ca3:4006 DJI Technology Co., Ltd. Baiwang&lt;/code&gt;, but based on online information and its AT command responses, it is essentially an EG25/EC25-class Qualcomm-based modem. The catch is that it cannot be flashed with standard Quectel firmware.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
