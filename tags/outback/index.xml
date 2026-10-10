@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Outback on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/outback/</link>
+    <description>Recent content in Outback on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 01 Sep 2026 10:40:51 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/outback/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为 2023 Subaru Outback 安装 Subaru D harness</title>
+      <link>https://blog.sparktour.me/posts/2026/08/31/subaru-outback-comma-openpilot-harness-install/</link>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2026/08/31/subaru-outback-comma-openpilot-harness-install/</guid>
+      <description>&lt;h1 id=&#34;为-2023-subaru-outback-安装-subaru-d-harness&#34;&gt;为 2023 Subaru Outback 安装 Subaru D harness&lt;/h1&gt;
+&lt;p&gt;笔者最近购入了&lt;a href=&#34;https://comma.ai/&#34;&gt;Comma.ai&lt;/a&gt;生产的Comma4，打算为我的车适配&lt;a href=&#34;https://github.com/commaai/openpilot&#34;&gt;openpilot&lt;/a&gt;。本文概述了在 &lt;strong&gt;2023 Subaru Outback（双目 EyeSight 版本）&lt;/strong&gt; 上安装 comma 随附的 Subaru D harness的过程（理论上2023年之后的SGP Platform的车都是这么拆装的，唯一的区别可能在于有没有螺丝）。简而言之：1. 拆下 EyeSight 外面的顶棚盖板 2. 把原车插头和 D harness 串接起来 3.收好线束、装回盖板即可。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

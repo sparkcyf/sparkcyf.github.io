@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Shizuku on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/shizuku/</link>
+    <description>Recent content in Shizuku on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 10 Oct 2026 11:49:38 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/shizuku/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>无需root，用Shizuku把Android手机变成Asterisk的蜂窝SIP网关</title>
+      <link>https://blog.sparktour.me/posts/2026/10/10/android-shizuku-cellular-sip-gateway/</link>
+      <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2026/10/10/android-shizuku-cellular-sip-gateway/</guid>
+      <description>&lt;p&gt;笔者之前用EC20和EG25模块配合Asterisk搭了蜂窝网关（&lt;a href=&#34;https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/&#34;&gt;《使用EC20模块配合asterisk及freepbx实现短信转发和网络电话》&lt;/a&gt;、&lt;a href=&#34;https://blog.sparktour.me/posts/2026/07/04/dji-baiwang-eg25-asterisk-telegram-sms-gateway/&#34;&gt;《将DJI/Baiwang的增强图传模块接入Asterisk并用Telegram Bot收发短信》&lt;/a&gt;），又用Flexisip解决了SIP客户端在后台收不到来电的问题（&lt;a href=&#34;https://blog.sparktour.me/posts/2026/09/14/self-hosted-sip-push-flexisip-linphone-android/&#34;&gt;《使用Flexisip和自编译Linphone为Asterisk/FreePBX添加SIP Push》&lt;/a&gt;）。这套系统里还缺一块：有些卡插在模块里就是用不好，最省事的办法是让一台普通的Android手机直接当网关。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

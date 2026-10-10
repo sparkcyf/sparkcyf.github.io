@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Llm on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/llm/</link>
+    <description>Recent content in Llm on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Oct 2026 11:49:38 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turning an Unrooted Android Phone into a Cellular SIP Gateway for Asterisk with Shizuku</title>
+      <link>https://blog.sparktour.me/en/posts/2026/10/10/android-shizuku-cellular-sip-gateway/</link>
+      <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2026/10/10/android-shizuku-cellular-sip-gateway/</guid>
+      <description>&lt;p&gt;I have previously built cellular gateways for Asterisk out of EC20 and EG25 modules (&lt;a href=&#34;https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/&#34;&gt;Using EC20 Module, Asterisk, and FreePBX for SMS Forwarding and VoIP&lt;/a&gt;, &lt;a href=&#34;https://blog.sparktour.me/posts/2026/07/04/dji-baiwang-eg25-asterisk-telegram-sms-gateway/&#34;&gt;Connecting a DJI/Baiwang Enhanced Transmission Module to Asterisk and Telegram SMS Bots&lt;/a&gt;), and used Flexisip to fix SIP clients missing calls in the background (&lt;a href=&#34;https://blog.sparktour.me/posts/2026/09/14/self-hosted-sip-push-flexisip-linphone-android/&#34;&gt;Adding SIP Push to Asterisk/FreePBX with Flexisip and a Custom Linphone Build&lt;/a&gt;). One piece was still missing: some SIM cards simply do not work well in a module, and the easiest fix would be to let an ordinary Android phone act as the gateway itself.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
