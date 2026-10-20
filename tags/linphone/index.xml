@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linphone on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/linphone/</link>
+    <description>Recent content in Linphone on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 17 Sep 2026 23:47:40 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/linphone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Flexisip和自编译Linphone为Asterisk/FreePBX添加SIP Push</title>
+      <link>https://blog.sparktour.me/posts/2026/09/14/self-hosted-sip-push-flexisip-linphone-android/</link>
+      <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2026/09/14/self-hosted-sip-push-flexisip-linphone-android/</guid>
+      <description>&lt;p&gt;笔者在2022年写过一篇&lt;a href=&#34;https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/&#34;&gt;《使用EC20模块配合asterisk及freepbx实现短信转发和网络电话》&lt;/a&gt;。当时虽然已经可以用SIP客户端接听插在EC20里的手机卡，但文章最后还留了一个很影响实际使用的问题：手机上的SIP客户端必须保持运行，否则呼入电话无法连接到SIP Client，呼叫端口会提示忙音。彼时笔者找到的简单方案只有Zoiper Push Proxy，但它并不是免费功能。&lt;/p&gt;
+&lt;p&gt;几年后，随着Agentic LLM的发展（误），笔者终于重新捡起了这个遗留问题。在与Codex交流一晚上后，笔者形成了以下的方案：在公网VPS上自行部署Flexisip，把它作为Issabel/Asterisk前的SIP Push Gateway和RTP中继；然后fork Linphone Android，更换自行创建的Firebase项目并重新编译。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>日本 on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/%E6%97%A5%E6%9C%AC/</link>
+    <description>Recent content in 日本 on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 12 Oct 2026 22:19:26 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/%E6%97%A5%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>暑假日本关东之旅</title>
+      <link>https://blog.sparktour.me/posts/2026/07/12/2026-japan-trip/</link>
+      <pubDate>Sun, 12 Jul 2026 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2026/07/12/2026-japan-trip/</guid>
+      <description>&lt;p&gt;趁着暑假回国，笔者在日本中转时停留了三晚，和朋友在东京、横滨以及神奈川县的二宫转了三天。考虑到舟车劳顿，以及希望借在日本的几天快速倒完时差，这次没有安排特别紧凑的行程，大部份时间都是坐电车去各处随意逛逛，顺便尝试了一些日本的连锁快餐。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>周末日本关西之旅</title>
+      <link>https://blog.sparktour.me/posts/2024/05/25/2024-japan-kansai-trip/</link>
+      <pubDate>Sat, 25 May 2024 18:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2024/05/25/2024-japan-kansai-trip/</guid>
+      <description>本次周末旅行的起因是我和同学抢到了hkexpress的学生特价机票，往返每个人只要1300HKD。考虑到旅行时间有限，我们决定只在日本关西地区活动，主要游览大阪和京都。</description>
+    </item>
+  </channel>
+</rss>

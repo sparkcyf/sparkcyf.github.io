@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Qualcomm on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/qualcomm/</link>
+    <description>Recent content in Qualcomm on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 17 Sep 2026 14:35:40 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/qualcomm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从小米手机固件提取MBN，为Quectel EC20/EG25模块补充VoLTE运营商配置</title>
+      <link>https://blog.sparktour.me/posts/2026/09/17/quectel-ec20-eg25-add-volte-mbn-from-xiaomi/</link>
+      <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2026/09/17/quectel-ec20-eg25-add-volte-mbn-from-xiaomi/</guid>
+      <description>&lt;p&gt;笔者之前在&lt;a href=&#34;https://blog.sparktour.me/posts/2022/10/08/quectel-ec20-asterisk-freepbx-gsm-gateway/&#34;&gt;《使用EC20模块配合asterisk及freepbx实现短信转发和网络电话》&lt;/a&gt;里提到，EC20虽然能通过&lt;code&gt;AT+QMBNCFG&lt;/code&gt;切换运营商配置，但模块内置的配置数量很少。以手上的EC20 R06为例，只有ROW、联通、电信和移动四份；另一台类似EG25的模块虽然有二十份，也没有一些香港运营商的volte配置。&lt;/p&gt;
+&lt;p&gt;这些运营商配置就是Qualcomm的MBN（Modem Configuration）。如果SIM需要的VoLTE参数不在固件里，且运营商不认ROW固件里的参数的话，单独执行&lt;code&gt;AT+QCFG=&amp;quot;ims&amp;quot;,1&lt;/code&gt;并不能让模块强行注册VoLTE。于是笔者尝试从基带分支相近的高通手机固件中提取MBN，再通过模块正式支持的AT接口加入EC20/EG25。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
