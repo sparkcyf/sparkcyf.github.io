@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gnss on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/gnss/</link>
+    <description>Recent content in Gnss on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 02 Nov 2026 09:57:47 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/gnss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不参与定位的北斗：Pixel 系列手机的 GNSS 地理围栏策略</title>
+      <link>https://blog.sparktour.me/posts/2026/10/25/pixel-gnss-restrictions-in-usa/</link>
+      <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2026/10/25/pixel-gnss-restrictions-in-usa/</guid>
+      <description>&lt;h1 id=&#34;不参与定位的北斗pixel-系列手机的-gnss-地理围栏策略&#34;&gt;不参与定位的北斗：Pixel 系列手机的 GNSS 地理围栏策略&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;TL; DR&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在美国使用的 Pixel 11 Pro 能正常接收北斗卫星信号，也会把北斗的原始测量和导航电文提供给 App，但系统定位过程中不使用北斗星座。&lt;/li&gt;
+&lt;li&gt;这一限制写在联发科 GNSS 配置文件的 &lt;code&gt;USswitch&lt;/code&gt; 项中：在一个大致覆盖美国本土的经纬度矩形内，固件把北斗（以及日本的 QZSS、印度的 NavIC）排除在定位解算之外，GLONASS 不受影响。&lt;/li&gt;
+&lt;li&gt;用手机记录的原始数据重新解算，在开阔天空下，加入北斗后位置散布缩小约 20%；在模拟的遮挡环境中，加入北斗带来的改善明显更大。&lt;/li&gt;
+&lt;li&gt;这一做法与 FCC 对外国卫星导航系统的授权规则有关，但 Google 排除的星座与 FCC 未授权的星座并不完全对应。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一起因&#34;&gt;一、起因&lt;/h2&gt;
+&lt;p&gt;Google 的 &lt;a href=&#34;https://support.google.com/pixelphone/answer/7158570&#34;&gt;Pixel 硬件规格页&lt;/a&gt;中，Pixel 10 及更早的机型把美国版和其他地区版的定位系统分开列出：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

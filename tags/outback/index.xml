@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Outback on Sparktour&#39;s Blog</title>
+    <link>https://blog.sparktour.me/tags/outback/</link>
+    <description>Recent content in Outback on Sparktour&#39;s Blog</description>
+    <image>
+      <title>Sparktour&#39;s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 20 Oct 2026 01:04:50 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/tags/outback/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从 bzImage 到嵌套虚拟机：用 QEMU/KVM 搭建 Subaru DENSO 车机调试环境</title>
+      <link>https://blog.sparktour.me/posts/2026/10/19/subaru-denso-qemu-kvm-simulation/</link>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2026/10/19/subaru-denso-qemu-kvm-simulation/</guid>
+      <description>&lt;h1 id=&#34;从-bzimage-到嵌套虚拟机用-qemukvm-搭建-subaru-车机调试环境&#34;&gt;从 bzImage 到嵌套虚拟机：用 QEMU/KVM 搭建 Subaru 车机调试环境&lt;/h1&gt;
+&lt;p&gt;本文研究的 Subaru &lt;a href=&#34;https://www.denso.com/global/en/products/lineup/safety-cockpit/&#34;&gt;DENSO&lt;/a&gt; 车机是一套由多个操作系统和专用硬件共同组成的系统：Intel x86 平台上运行着 QNX Hypervisor、QNX Neutrino 和 Linux，应用又依赖图形、音频、网络和认证芯片等组件。直接在这样的量产设备上调试，首先就会遇到调试条件的问题：shell、串口和调试器的访问通常受限，一次服务崩溃或系统重启又可能打断车机的正常使用。要反复观察程序、比较配置和收集崩溃现场，一套独立于实车的实验环境会方便很多。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>为 2023 Subaru Outback 安装 Subaru D harness</title>
+      <link>https://blog.sparktour.me/posts/2026/08/31/subaru-outback-comma-openpilot-harness-install/</link>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/posts/2026/08/31/subaru-outback-comma-openpilot-harness-install/</guid>
+      <description>&lt;h1 id=&#34;为-2023-subaru-outback-安装-subaru-d-harness&#34;&gt;为 2023 Subaru Outback 安装 Subaru D harness&lt;/h1&gt;
+&lt;p&gt;笔者最近购入了&lt;a href=&#34;https://comma.ai/&#34;&gt;Comma.ai&lt;/a&gt;生产的Comma4，打算为我的车适配&lt;a href=&#34;https://github.com/commaai/openpilot&#34;&gt;openpilot&lt;/a&gt;。本文概述了在 &lt;strong&gt;2023 Subaru Outback（双目 EyeSight 版本）&lt;/strong&gt; 上安装 comma 随附的 Subaru D harness的过程（理论上2023年之后的SGP Platform的车都是这么拆装的，唯一的区别可能在于有没有螺丝）。简而言之：1. 拆下 EyeSight 外面的顶棚盖板 2. 把原车插头和 D harness 串接起来 3.收好线束、装回盖板即可。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

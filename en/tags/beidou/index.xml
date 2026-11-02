@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Beidou on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/beidou/</link>
+    <description>Recent content in Beidou on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Nov 2026 22:59:47 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/beidou/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BeiDou Left Out of Positioning: The GNSS Geofencing Policy on Pixel Phones</title>
+      <link>https://blog.sparktour.me/en/posts/2026/10/25/pixel-gnss-restrictions-in-usa/</link>
+      <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2026/10/25/pixel-gnss-restrictions-in-usa/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Pixel 11 Pro used in the US receives BeiDou satellite signals normally and also passes BeiDou raw measurements and navigation messages to apps, but the system does not use the BeiDou constellation when computing a position.&lt;/li&gt;
+&lt;li&gt;The restriction is written in the &lt;code&gt;USswitch&lt;/code&gt; entry of MediaTek&amp;rsquo;s GNSS configuration file: inside a latitude/longitude rectangle that roughly covers the contiguous US, the firmware excludes BeiDou (along with Japan&amp;rsquo;s QZSS and India&amp;rsquo;s NavIC) from the position solution. GLONASS is not affected.&lt;/li&gt;
+&lt;li&gt;Re-solving the raw data recorded by the phones shows that under open sky, adding BeiDou shrinks the position scatter by about 20%; in simulated obstructed environments, the improvement from adding BeiDou is clearly larger.&lt;/li&gt;
+&lt;li&gt;This practice is related to the FCC&amp;rsquo;s authorization rules for foreign satellite navigation systems, but the constellations Google excludes do not fully match the constellations the FCC has not authorized.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;1-background&#34;&gt;1. Background&lt;/h2&gt;
+&lt;p&gt;On Google&amp;rsquo;s &lt;a href=&#34;https://support.google.com/pixelphone/answer/7158570&#34;&gt;Pixel hardware tech specs page&lt;/a&gt;, Pixel 10 and earlier models list the positioning systems separately for the US version and for other regions:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
