@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Qemu on Sparktour’s Blog</title>
+    <link>https://blog.sparktour.me/en/tags/qemu/</link>
+    <description>Recent content in Qemu on Sparktour’s Blog</description>
+    <image>
+      <title>Sparktour’s Blog</title>
+      <url>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</url>
+      <link>https://assets.sparktour.me/img/blog/misc/about-bg.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Nov 2026 23:36:09 -0700</lastBuildDate>
+    <atom:link href="https://blog.sparktour.me/en/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From bzImage to Nested VMs: Building a Subaru DENSO Head Unit Debug Environment with QEMU/KVM</title>
+      <link>https://blog.sparktour.me/en/posts/2026/10/19/subaru-denso-qemu-kvm-simulation/</link>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+      <guid>https://blog.sparktour.me/en/posts/2026/10/19/subaru-denso-qemu-kvm-simulation/</guid>
+      <description>&lt;p&gt;The Subaru &lt;a href=&#34;https://www.denso.com/global/en/products/lineup/safety-cockpit/&#34;&gt;DENSO&lt;/a&gt; head unit studied in this article is a system made up of multiple operating systems and dedicated hardware: a QNX Hypervisor, QNX Neutrino and Linux run on an Intel x86 platform, and the applications depend on graphics, audio, networking and an authentication chip. Debugging directly on such a production device runs into the problem of debugging conditions first: access to a shell, serial port and debugger is usually restricted, and a service crash or system reboot may interrupt normal use of the head unit. To repeatedly observe programs, compare configurations and collect crash scenes, a lab environment independent of the car is much more convenient.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
